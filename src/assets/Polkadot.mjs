@@ -4,9 +4,9 @@ export const style = {
   display: 'inline-block',
   position: 'absolute',
   height: '100%',
-  width: '60vw',
+  width: '50vw',
   right: 0,
-  top: '100px',
-  backgroundImage: 'radial-gradient(black 2px, transparent 2px)',
+  top: '3em',
+  backgroundImage: 'radial-gradient(black 1px, transparent 1px)',
   backgroundSize: '20px 20px',
 }
