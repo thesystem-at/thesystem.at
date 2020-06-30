@@ -1,20 +1,22 @@
-export const View = () => [
-  VideoContainer(),
+export const View = state => [
+  VideoContainer({
+    ...state,
+    message: [
+      'Am 11.07.2020, 22:00 Uhr Wiener Zeit (GMT + 1),',
+      br(),
+      ' wird dieses Bild sich in ein Video verwandeln.',
+      br(),
+      'Um 22:00 Uhr wird der Livestream starten.',
+    ],
+  }),
 
-  h1([p('THE'), p('SYSTEM'), p('INTRO')]),
+  Slogan(),
 
   div({ class: 'hr litto' }, [
     Polkadot(),
 
     PreviewImage(),
 
-    div({ class: 'location' }, [
-      p({ class: 'date' }, '04.07.2020'),
-      p({ class: 'time' }, '22:00'),
-      p({ class: 'street' }, 'Yppenplatz 5'),
-      p({ class: 'district' }, '1160 Wien'),
-    ]),
-
-    div({ class: 'presents' }, [p('Ms. Litto'), p('präsentiert'), p('Hr. Litto')]),
+    div({ class: 'sections' }, [Presents('präsentiert'), Location()]),
   ]),
 ]
