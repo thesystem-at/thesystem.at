@@ -2,7 +2,7 @@ export const View = () =>
   footer({ class: 'Footer' }, [
     h3('Support:'),
 
-    Link({ to: 'https://koer.or.at' }, Img({ title: 'funded by kör <3', src: '/social/koer.png' })),
+    // Link({ to: 'https://koer.or.at' }, Img({ title: 'funded by kör <3', src: '/social/koer.png' })),
 
     Link(
       { to: 'https://usus.wien' },
