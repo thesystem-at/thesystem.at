@@ -1,7 +1,7 @@
 export const View = ({ show = false, message }) =>
   div({ class: 'VideoContainer', onclick: actions.toggle }, [
     Img({ src: '/video-poster.jpg', height: 388, width: 621 }),
-    show && div({ class: 'message' }, div([message, button('cool.')])),
+    // show && div({ class: 'message' }, div([message, button('cool.')])),
   ])
 
 export const state = {
