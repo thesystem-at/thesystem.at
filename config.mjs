@@ -6,4 +6,6 @@ export default {
   THEME: 'system',
   CNAME: 'thesystem.at',
   IGNORED_STATIC: 'xcf',
+
+  HOIST: ['LanguageSwitch'],
 }
