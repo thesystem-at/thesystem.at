@@ -16,15 +16,12 @@ export const View = state => [
     title: 'The System: garden',
     previewImage: '/preview.jpg',
     presents: {
-      pre: {
-        text: 'ibisum',
-        to: 'https://litto.work',
-      },
+      pre: 'ibisum',
       post: 'the garden',
       middle: 'presents',
     },
     date: '07.08.',
-    description: ['Jay gonna add text here, please'],
+    description: ['Jay: add text here, please'],
   }),
 
   ExhibitionWrapper({
