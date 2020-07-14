@@ -12,11 +12,27 @@ export const View = state => [
 
   Slogan(),
 
-  div({ class: 'hr litto' }, [
-    Polkadot(),
-
-    PreviewImage(),
-
-    div({ class: 'sections' }, [Presents('präsentiert'), Location()]),
-  ]),
+  ExhibitionWrapper({
+    previewImage: '/preview.jpg',
+    presents: {
+      pre: {
+        text: 'Ms. Litto',
+        to: 'https://litto.work',
+      },
+      post: {
+        text: 'Hr. Litto',
+        to: 'https://www.instagram.com/hr.litto/',
+      },
+      middle: 'präsentiert',
+    },
+    date: '31.07.',
+    description: [
+      'mutations happen: ',
+      "we marry our body's natural resources to technology, ",
+      'we merge AI with the human mind. ',
+      'Are they distinguishable? ',
+      'Are we humans an equal match? ',
+      'What kind of reality arises when we look at the moment of intersection?',
+    ],
+  }),
 ]
