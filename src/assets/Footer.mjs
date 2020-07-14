@@ -1,4 +1,4 @@
-export const View = () =>
+export const View = (state, children) =>
   footer({ class: 'Footer' }, [
     h3('Support:'),
 
@@ -13,4 +13,6 @@ export const View = () =>
       { to: 'https://magic.github.io' },
       Img({ title: 'made with a few bits of magic', src: '/social/magic.png' }),
     ),
+
+    children,
   ])
