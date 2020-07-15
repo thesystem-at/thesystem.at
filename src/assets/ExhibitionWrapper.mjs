@@ -1,5 +1,5 @@
 export const View = state =>
-  div({ class: 'hr litto' }, [
+  div({ class: 'ExhibitionWrapper' }, [
     Polkadot(),
 
     PreviewImage(state.previewImage),

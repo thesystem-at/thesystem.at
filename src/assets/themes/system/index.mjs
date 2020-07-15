@@ -53,7 +53,7 @@ export default (v = {}) => {
       maxWidth: 'inherit',
     },
 
-    '.hr.litto': {
+    '.ExhibitionWrapper': {
       position: 'relative',
       width: '100%',
       display: 'inline-block',
@@ -88,6 +88,10 @@ export default (v = {}) => {
         width: '2.5em',
         margin: '0 2em 0 0',
       },
+    },
+
+    '.PreviewImage': {
+      zIndex: 1,
     },
 
     [`@media screen and (min-width: ${v.widths.tablet})`]: {
@@ -125,9 +129,13 @@ export default (v = {}) => {
         },
       },
 
-      '.hr.litto': {
+      '.ExhibitionWrapper': {
         clear: 'none',
-        margin: '-3em 0 0',
+        margin: '5em 0 0',
+
+        '&:first-child': {
+          margin: '-3em 0 0',
+        },
 
         '.Polkadot': {
           left: 0,
