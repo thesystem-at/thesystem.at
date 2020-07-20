@@ -33,12 +33,12 @@
   },
   "dependencies": {
     "@magic-modules/language-switch": "0.0.2",
-    "@magic-modules/no-spy": "0.0.1",
-    "@magic/core": "0.0.82"
+    "@magic-modules/no-spy": "0.0.5",
+    "@magic/core": "0.0.87"
   },
   "devDependencies": {
-    "@magic/format": "0.0.11",
-    "@magic/test": "0.1.50"
+    "@magic/format": "0.0.12",
+    "@magic/test": "0.1.52"
   },
   "contributors": [
     {
