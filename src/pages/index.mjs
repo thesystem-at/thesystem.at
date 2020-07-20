@@ -13,15 +13,15 @@ export const View = state => [
   Slogan(state),
 
   ExhibitionWrapper({
-    title: 'The System: garden',
+    title: 'SYSTEMIC GARDEN',
     previewImage: '/preview.jpg',
     presents: {
       pre: 'ibisum',
-      post: 'the garden',
+      post: 'systemic garden',
       middle: 'presents',
     },
     date: '07.08.',
-    description: ['Jay: add text here, please'],
+    description: ['Jay: add text here, please.'],
   }),
 
   ExhibitionWrapper({
