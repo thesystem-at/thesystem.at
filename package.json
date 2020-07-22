@@ -10,7 +10,7 @@
     "node": ">=14.2.0"
   },
   "scripts": {
-    "start": "t -p",
+    "start": "magic dev",
     "format": "f -w --exclude docs",
     "test": "t --exclude docs",
     "build": "NODE_ENV=production magic build",
