@@ -30,6 +30,12 @@ export default (v = {}) => {
       lineHeight: 1.2,
     },
 
+    '#Magic': {
+      '.icon': {
+        width: '1em'
+      },
+    },
+
     '.Page': {
       h1: {
         padding: '2em 0',
@@ -85,13 +91,23 @@ export default (v = {}) => {
       },
 
       img: {
-        width: '2.5em',
         margin: '0 2em 0 0',
       },
     },
 
     '.PreviewImage': {
       zIndex: 1,
+    },
+
+    '.NoSpy': {
+      left: 'auto',
+      right: '0.5em',
+
+      '.icon': {
+        left: 'auto',
+        right: 0,
+        width: '1em',
+      },
     },
 
     [`@media screen and (min-width: ${v.widths.tablet})`]: {
