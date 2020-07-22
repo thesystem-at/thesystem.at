@@ -32,7 +32,6 @@
     "url": "https://github.com/thesystem-at/thesystem.at/issues"
   },
   "dependencies": {
-    "@magic-modules/language-switch": "0.0.2",
     "@magic-modules/no-spy": "0.0.5",
     "@magic/core": "0.0.87"
   },
