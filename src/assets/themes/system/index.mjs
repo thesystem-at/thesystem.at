@@ -108,6 +108,12 @@ export default (v = {}) => {
         right: 0,
         width: '1em',
       },
+
+      '.Container': {
+        right: 0,
+        left: 'auto',
+        fontSize: '0.7em',
+      },
     },
 
     [`@media screen and (min-width: ${v.widths.tablet})`]: {
