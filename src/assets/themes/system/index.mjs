@@ -48,7 +48,7 @@ export default (v = {}) => {
           lineHeight: 1,
 
           '&:last-child': {
-            fontSize: '2em',
+            fontSize: '0.9em',
           },
         },
       },
@@ -180,9 +180,9 @@ export default (v = {}) => {
           p: {
             fontSize: '3vw',
 
-            '&:last-child': {
-              fontSize: '5.5vw',
-            },
+            // '&:last-child': {
+            //   fontSize: '5.5vw',
+            // },
           },
         },
       },
