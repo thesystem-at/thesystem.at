@@ -13,39 +13,38 @@ export const View = state => [
   Slogan(state),
 
   ExhibitionWrapper({
-    title: 'SYSTEMIC GARDEN',
-    previewImage: '/preview.jpg',
-    presents: {
-      pre: 'ibisum',
-      post: 'systemic garden',
-      middle: 'presents',
-    },
-    date: '07.08.',
-    description: ['Jay: add text here, please.'],
-  }),
-
-  ExhibitionWrapper({
-    title: 'INTRO',
-    previewImage: '/preview.jpg',
+    title: 'The human body…',
+    previewImage: '/thesystem-thebody.jpg',
     presents: {
       pre: {
         text: 'Ms. Litto',
         to: 'https://litto.work',
       },
+      middle: 'presents',
       post: {
         text: 'Hr. Litto',
         to: 'https://www.instagram.com/hr.litto/',
       },
-      middle: 'presents',
     },
     date: '31.07.',
     description: [
-      'mutations happen: ',
-      "we marry our body's natural resources to technology, ",
-      'we merge AI with the human mind. ',
-      'Are they distinguishable? ',
-      'Are we humans an equal match? ',
-      'What kind of reality arises when we look at the moment of intersection?',
+      `…independent of its size, 
+      gender or color is a complex entity in the physical field.`,
     ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'The System: garden',
+    previewImage: '/thesystem-garden.png',
+    presents: {
+      pre: {
+        text: 'ibisum',
+        to: 'https://primitur.at',
+      },
+      middle: 'presents',
+      post: 'the.system:garden',
+    },
+    date: '29.07 – 04.07 (hours tbd.)',
+    description: ['the.system:garden / cultivating heritage computing for the kids of the future.'],
   }),
 ]
