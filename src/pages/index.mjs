@@ -13,19 +13,7 @@ export const View = state => [
   Slogan(state),
 
   ExhibitionWrapper({
-    title: 'The System: garden',
-    previewImage: '/preview.jpg',
-    presents: {
-      pre: 'ibisum',
-      post: 'the garden',
-      middle: 'presents',
-    },
-    date: '07.08.',
-    description: ['Jay: add text here, please'],
-  }),
-
-  ExhibitionWrapper({
-    title: 'INTRO',
+    title: 'The human body…',
     previewImage: '/preview.jpg',
     presents: {
       pre: {
@@ -40,12 +28,23 @@ export const View = state => [
     },
     date: '31.07.',
     description: [
-      'mutations happen: ',
-      "we marry our body's natural resources to technology, ",
-      'we merge AI with the human mind. ',
-      'Are they distinguishable? ',
-      'Are we humans an equal match? ',
-      'What kind of reality arises when we look at the moment of intersection?',
+      `…independent of its size, 
+      gender or color is a complex entity in the physical field.`,
     ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'The System: garden',
+    previewImage: '/02_theSystemGarden.png',
+    presents: {
+      pre: {
+        text: 'ibisum',
+        to: 'https://primitur.at',
+      },
+      post: 'the.system:garden',
+      middle: 'presents',
+    },
+    date: '29.07 – 04.07 (hours tbd.)',
+    description: ['the.system:garden / cultivating heritage computing for the kids of the future.'],
   }),
 ]
