@@ -47,4 +47,11 @@ export const View = state => [
     date: '29.07 – 04.07 (hours tbd.)',
     description: ['the.system:garden / cultivating heritage computing for the kids of the future.'],
   }),
+
+  div([
+    h2('Manifest'),
+    p(`We are independent artists collectively using technology to transform our world. 
+      Our system is transformation between universes, physical and virtual. 
+      We don't need space, time is irrelevant, objects stay as useful as the user.`)
+  ])
 ]
