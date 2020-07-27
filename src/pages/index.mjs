@@ -26,7 +26,7 @@ export const View = state => [
         to: 'https://www.instagram.com/hr.litto/',
       },
     },
-    date: '07.08.',
+    date: '05.08. 19:00',
     description: '…independent of its size, gender or color is a complex entity in the physical field.',
   }),
 
@@ -41,7 +41,7 @@ export const View = state => [
       middle: 'presents',
       post: 'the.system:garden',
     },
-    date: '04.08. – 11.08.',
+    date: '05.08. – 10.08.',
     description: 'cultivating heritage computing for the kids of the future.',
   }),
 
