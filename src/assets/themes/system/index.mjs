@@ -32,24 +32,22 @@ export default (v = {}) => {
 
     '#Magic': {
       '.icon': {
-        width: '1em'
+        width: '1em',
       },
     },
 
-    '.Page': {
-      h1: {
-        padding: '2em 0',
-        fontWeight: 'bold',
-        position: 'relative',
-        width: '100%',
+    '.Slogan': {
+      padding: '2em 0',
+      fontWeight: 'bold',
+      position: 'relative',
+      width: '100%',
 
-        p: {
-          fontSize: '1em',
-          lineHeight: 1,
+      p: {
+        fontSize: '1em',
+        lineHeight: 1,
 
-          '&:last-child': {
-            fontSize: '0.9em',
-          },
+        '&:last-child': {
+          fontSize: '.9em',
         },
       },
     },
@@ -71,7 +69,7 @@ export default (v = {}) => {
 
       section: {
         clear: 'both',
-        margin: '0 3vw 3em',
+        margin: '0 3vw 3em 0',
         width: '33vw',
       },
 
@@ -116,6 +114,10 @@ export default (v = {}) => {
       },
     },
 
+    '.manifest': {
+      margin: '5em 1em 0',
+    },
+
     [`@media screen and (min-width: ${v.widths.tablet})`]: {
       body: {
         fontSize: '25px',
@@ -124,7 +126,6 @@ export default (v = {}) => {
       '.sections': {
         section: {
           margin: '0 4vw 0 0',
-          float: 'right',
         },
         '.presents, .location': {
           marginBottom: '2em',
@@ -173,16 +174,14 @@ export default (v = {}) => {
         },
       },
 
-      '.Page': {
-        h1: {
-          width: 'auto',
+      '.Slogan': {
+        width: 'auto',
 
-          p: {
-            fontSize: '3vw',
+        p: {
+          fontSize: '5vw',
 
-            // '&:last-child': {
-            //   fontSize: '5.5vw',
-            // },
+          '&:last-child': {
+            fontSize: '2.7vw',
           },
         },
       },
@@ -205,7 +204,6 @@ export default (v = {}) => {
         width: '40vw',
 
         section: {
-          float: 'left',
           margin: '0 2em 0 0',
           width: 'auto',
         },
