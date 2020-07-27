@@ -26,11 +26,8 @@ export const View = state => [
         to: 'https://www.instagram.com/hr.litto/',
       },
     },
-    date: '31.07.',
-    description: [
-      `…independent of its size, 
-      gender or color is a complex entity in the physical field.`,
-    ],
+    date: '07.08.',
+    description: '…independent of its size, gender or color is a complex entity in the physical field.',
   }),
 
   ExhibitionWrapper({
@@ -44,14 +41,16 @@ export const View = state => [
       middle: 'presents',
       post: 'the.system:garden',
     },
-    date: '29.07 – 04.07 (hours tbd.)',
-    description: ['the.system:garden / cultivating heritage computing for the kids of the future.'],
+    date: '04.08. – 11.08.',
+    description: 'cultivating heritage computing for the kids of the future.',
   }),
 
-  div([
+  div({ class: 'manifest' }, [
     h2('Manifest'),
-    p(`We are independent artists collectively using technology to transform our world. 
-      Our system is transformation between universes, physical and virtual. 
-      We don't need space, time is irrelevant, objects stay as useful as the user.`)
-  ])
+    p([
+      'We are independent artists collectively using technology to transform our world.',
+      ' Our system is transformation between universes, physical and virtual.',
+      " We don't need space, time is irrelevant, objects stay as useful as the user.",
+    ]),
+  ]),
 ]
