@@ -26,8 +26,8 @@ export const View = state => [
         to: 'https://www.instagram.com/hr.litto/',
       },
     },
-    date: '05.08. 19:00',
-    description: '…independent of its size, gender or color is a complex entity in the physical field.',
+    date: '11.08. 21:00',
+    description: 'An AI generated person from a drawing, talks about material properties of the human body',
   }),
 
   ExhibitionWrapper({
@@ -41,7 +41,7 @@ export const View = state => [
       middle: 'presents',
       post: 'the.system:garden',
     },
-    date: '05.08. – 10.08.',
+    date: '11.08. – 12.08.',
     description: 'cultivating heritage computing for the kids of the future.',
   }),
 
