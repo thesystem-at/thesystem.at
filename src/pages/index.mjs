@@ -27,7 +27,10 @@ export const View = state => [
       },
     },
     date: '11.08. 21:00',
-    description: 'An AI generated person from a drawing, talks about material properties of the human body',
+    description: [
+      'An AI, sourced from a drawing, tells us what it learned',
+      ' about material properties of the human body.',
+    ],
   }),
 
   ExhibitionWrapper({
