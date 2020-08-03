@@ -107,6 +107,13 @@ export default (v = {}) => {
         width: '1em',
       },
 
+      '.ShowHide': {
+        left: 'auto',
+        right: 0,
+        bottom: '0.5em',
+        height: '0.8em',
+      },
+
       '.Container': {
         right: 0,
         left: 'auto',
