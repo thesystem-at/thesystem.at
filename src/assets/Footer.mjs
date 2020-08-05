@@ -3,20 +3,30 @@ export const View = (_, children) =>
     h3('Commissioned by:'),
 
     Link({ title: 'financial support provided by kör', to: 'https://koer.or.at' }, [
-      Img({ class: 'koer', src: '/social/koer.jpg' }),
-      Img({ class: 'koer', src: '/social/wien-kultur.jpg' }),
+      Img({ class: 'koer', src: '/social/koer.jpg', width: '255', height: '100' }),
+      Img({ class: 'koer', src: '/social/wien-kultur.jpg', width: '349', height: '100' }),
     ]),
 
     h3('Support:'),
 
     Link(
       { to: 'https://usus.wien' },
-      Img({ title: 'yppshop provided by usus.wien', src: '/social/usus.png' }),
+      Img({
+        title: 'yppshop provided by usus.wien',
+        src: '/social/usus.png',
+        width: '80',
+        height: '35',
+      }),
     ),
 
     Link(
       { to: 'https://magic.github.io' },
-      Img({ title: 'made with a few bits of magic', src: '/social/magic.png' }),
+      Img({
+        title: 'made with a few bits of magic',
+        src: '/social/magic.png',
+        width: '40',
+        height: '35',
+      }),
     ),
 
     children,
