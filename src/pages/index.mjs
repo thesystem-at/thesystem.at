@@ -10,7 +10,7 @@ export const View = state => [
     ],
   }),
 
-  Slogan(state),
+  Slogan({ subTitle: '2020' }),
 
   ExhibitionWrapper({
     title: 'The human body…',
