@@ -16,11 +16,10 @@ export const style = vars => ({
   position: 'relative',
   width: '100%',
   display: 'inline-block',
-  margin: '5em 0 0',
+  margin: '0 0 5em',
 
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
     clear: 'none',
-    margin: '5em 0 0',
 
     '&:first-child': {
       margin: '-3em 0 0',
