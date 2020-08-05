@@ -14,7 +14,11 @@ export const View = state => [
 
   ExhibitionWrapper({
     title: 'The human body…',
-    previewImage: '/thesystem-thebody.jpg',
+    img: {
+      src: '/thesystem-thebody.jpg',
+      height: 900,
+      width: 1200,
+    },
     presents: {
       pre: {
         text: 'Ms. Litto',
@@ -35,7 +39,11 @@ export const View = state => [
 
   ExhibitionWrapper({
     title: 'The System: garden',
-    previewImage: '/thesystem-garden.png',
+    img: {
+      src: '/thesystem-garden.png',
+      height: 453,
+      width: 606,
+    },
     presents: {
       pre: {
         text: 'ibisum',
