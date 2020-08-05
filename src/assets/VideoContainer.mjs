@@ -84,5 +84,5 @@ export const style = vars => ({
       maxWidth: '100%',
       maxHeight: '100%',
     },
-  }
+  },
 })
