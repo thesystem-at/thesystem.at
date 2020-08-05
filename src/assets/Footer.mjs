@@ -2,13 +2,10 @@ export const View = (_, children) =>
   footer({ class: 'Footer' }, [
     h3('Commissioned by:'),
 
-    Link(
-      { title: 'financial support provided by kör', to: 'https://koer.or.at' },
-      [
-        Img({ class: 'koer', src: '/social/koer.jpg' }),
-        Img({ class: 'koer', src: '/social/wien-kultur.jpg' }),
-      ],
-    ),
+    Link({ title: 'financial support provided by kör', to: 'https://koer.or.at' }, [
+      Img({ class: 'koer', src: '/social/koer.jpg' }),
+      Img({ class: 'koer', src: '/social/wien-kultur.jpg' }),
+    ]),
 
     h3('Support:'),
 
