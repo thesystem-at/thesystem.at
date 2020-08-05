@@ -1,9 +1,14 @@
-export const View = src => Img({ class: 'PreviewImage', src, height: 606, width: 453 })
+export const View = p => Img({ class: 'PreviewImage', ...p })
 
-export const style = {
-  margin: '0 1em 3em 0',
+export const style = vars => ({
+  margin: '5em 1em 3em 0',
   float: 'right',
   position: 'relative',
-  width: '70vw',
+  width: '90vw',
   height: 'auto',
-}
+  zIndex: 1,
+
+  [`@media screen and (min-width: ${vars.widths.laptop})`]: {
+    width: '35vw',
+  },
+})
