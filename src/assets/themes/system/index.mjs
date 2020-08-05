@@ -45,6 +45,10 @@ export default (v = {}) => {
       display: 'inline-block',
       margin: '0 0 0 1em',
 
+      h2: {
+        padding: 0,
+      },
+
       section: {
         clear: 'both',
         margin: '0 3vw 3em 0',
