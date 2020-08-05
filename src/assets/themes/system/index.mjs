@@ -36,22 +36,6 @@ export default (v = {}) => {
       },
     },
 
-    '.Slogan': {
-      padding: '2em 0',
-      fontWeight: 'bold',
-      position: 'relative',
-      width: '100%',
-
-      p: {
-        fontSize: '1em',
-        lineHeight: 1,
-
-        '&:last-child': {
-          fontSize: '.9em',
-        },
-      },
-    },
-
     '.Wrapper': {
       width: '100%',
       maxWidth: 'inherit',
@@ -75,21 +59,6 @@ export default (v = {}) => {
 
       '.description, .location': {
         fontSize: '0.8em',
-      },
-    },
-
-    '.Footer': {
-      padding: 0,
-      position: 'relative',
-      margin: '4em 0 0 2vw',
-      width: 'auto',
-
-      a: {
-        display: 'inline-block',
-      },
-
-      img: {
-        margin: '0 2em 0 0',
       },
     },
 
@@ -181,18 +150,6 @@ export default (v = {}) => {
         },
       },
 
-      '.Slogan': {
-        width: 'auto',
-
-        p: {
-          fontSize: '5vw',
-
-          '&:last-child': {
-            fontSize: '2.7vw',
-          },
-        },
-      },
-
       '.sections': {
         float: 'right',
         margin: '7em 0 0',
@@ -205,6 +162,7 @@ export default (v = {}) => {
         },
       },
     },
+
     [`@media screen and (min-width: ${vars.widths.desktop})`]: {
       '.sections': {
         margin: '7em 0 0',

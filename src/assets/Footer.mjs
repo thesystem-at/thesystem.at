@@ -1,18 +1,16 @@
-export const View = (state, children) =>
+export const View = (_, children) =>
   footer({ class: 'Footer' }, [
     h3('Commissioned by:'),
 
     Link(
       { title: 'financial support provided by kör', to: 'https://koer.or.at' },
       [
-        Img({ src: '/social/koer.jpg' }),
-        Img({ src: '/social/wien-kultur.jpg' }),
+        Img({ class: 'koer', src: '/social/koer.jpg' }),
+        Img({ class: 'koer', src: '/social/wien-kultur.jpg' }),
       ],
     ),
 
     h3('Support:'),
-
-    // Link({ to: 'https://koer.or.at' }, Img({ title: 'funded by kör <3', src: '/social/koer.png' })),
 
     Link(
       { to: 'https://usus.wien' },
@@ -26,3 +24,29 @@ export const View = (state, children) =>
 
     children,
   ])
+
+export const style = vars => ({
+  padding: 0,
+  position: 'relative',
+  margin: '4em 0 0 2vw',
+  width: 'auto',
+
+  a: {
+    display: 'inline-block',
+  },
+
+  img: {
+    margin: '0 2em 0 0',
+  },
+
+  '.koer': {
+    display: 'block',
+    margin: '0 0 1em',
+  },
+
+  [`@media screen and (min-width: ${vars.widths.laptop})`]: {
+    '.koer': {
+      display: 'inherit',
+    },
+  },
+})
