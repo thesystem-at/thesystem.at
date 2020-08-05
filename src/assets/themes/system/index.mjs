@@ -41,12 +41,6 @@ export default (v = {}) => {
       maxWidth: 'inherit',
     },
 
-    '.ExhibitionWrapper': {
-      position: 'relative',
-      width: '100%',
-      display: 'inline-block',
-    },
-
     '.sections': {
       display: 'inline-block',
       margin: '0 0 0 1em',
@@ -60,10 +54,6 @@ export default (v = {}) => {
       '.description, .location': {
         fontSize: '0.8em',
       },
-    },
-
-    '.PreviewImage': {
-      zIndex: 1,
     },
 
     '.NoSpy': {
@@ -128,34 +118,11 @@ export default (v = {}) => {
         },
       },
 
-      '.ExhibitionWrapper': {
-        clear: 'none',
-        margin: '5em 0 0',
-
-        '&:first-child': {
-          margin: '-3em 0 0',
-        },
-
-        '.Polkadot': {
-          left: 0,
-        },
-
-        img: {
-          margin: '1vw 0 0 2vw',
-          float: 'left',
-        },
-
-        '.PreviewImage': {
-          width: '35vw',
-        },
-      },
-
       '.sections': {
         float: 'right',
         width: '40vw',
 
         section: {
-          float: 'left',
           width: '23vw',
           clear: 'none',
         },
