@@ -4,7 +4,7 @@ export const style = vars => ({
   fontWeight: 'bold',
   position: 'relative',
   width: '100%',
-  margin: '2em 0',
+  margin: '0 0 2em',
 
   p: {
     fontSize: '2em',

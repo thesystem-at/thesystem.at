@@ -104,20 +104,6 @@ export default (v = {}) => {
     },
 
     [`@media screen and (min-width: ${vars.widths.laptop})`]: {
-      '.VideoContainer': {
-        width: '50vw',
-        height: '28.125vw',
-        float: 'right',
-        margin: '2vw 2vw 0 0',
-        top: 0,
-        right: 0,
-
-        img: {
-          maxWidth: '100%',
-          maxHeight: '100%',
-        },
-      },
-
       '.sections': {
         float: 'right',
         width: '40vw',

@@ -34,6 +34,7 @@ export const propTypes = {
 export const style = vars => ({
   zIndex: 1,
   position: 'relative',
+  margin: '0 0 2em',
 
   img: {
     width: '100%',
@@ -70,4 +71,18 @@ export const style = vars => ({
       color: vars.text.dark,
     },
   },
+
+  [`@media screen and (min-width: ${vars.widths.laptop})`]: {
+    width: '50vw',
+    height: '28.125vw',
+    float: 'right',
+    margin: '2vw 2vw 4em 0',
+    top: 0,
+    right: 0,
+
+    img: {
+      maxWidth: '100%',
+      maxHeight: '100%',
+    },
+  }
 })
