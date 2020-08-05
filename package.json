@@ -1,11 +1,11 @@
 {
-  "name": "thesystem.art",
+  "name": "thesystem.at",
   "version": "0.23.5",
   "private": true,
   "author": "Wizards & Witches",
   "description": "the system.",
   "license": "AGPL-3.0",
-  "homepage": "https://thesystem.art",
+  "homepage": "https://thesystem.at",
   "engines": {
     "node": ">=14.2.0"
   },
