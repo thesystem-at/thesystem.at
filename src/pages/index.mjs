@@ -27,7 +27,7 @@ export const View = state => [
         to: 'https://litto.work',
       },
       middle: 'presents Hr. Litto',
-      post: '11.08. 21:00',
+      post: '11.08. 21:00 – 22:00',
     },
     date: '',
     description: [
@@ -49,7 +49,7 @@ export const View = state => [
         to: 'https://primitur.at',
       },
       middle: 'performs',
-      post: '11.08. 18:00',
+      post: '11.08. 18:00 - 20:30',
     },
     date: '',
     description: 'cultivating heritage computing for the kids of the future.',
@@ -103,6 +103,27 @@ export const View = state => [
       p('An echo in the empty space'),
       p("A shrine to meditate over what's left"),
       p('After the anthropocene'),
+    ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'Sandkasten',
+    img: {
+      src: '/sandkasten.jpg',
+      height: 1600,
+      width: 1200,
+    },
+    presents: {
+      pre: {
+        text: 'elet / aka Je. Jesch & Markus Liszt',
+        to: 'https://www.facebook.com/sandkastensyndikat/',
+      },
+      middle: 'Audio and Visual Performance',
+      post: 'Opening 18:00 – 22:00 / 26.08 – 30.08',
+    },
+    date: '',
+    description: [
+      p(''),
     ],
   }),
 
