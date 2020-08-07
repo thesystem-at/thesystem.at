@@ -9,6 +9,6 @@ export const style = vars => ({
   zIndex: 1,
 
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
-    width: '35vw',
+    width: '40vw',
   },
 })
