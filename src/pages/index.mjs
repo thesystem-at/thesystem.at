@@ -111,12 +111,14 @@ export const View = state => [
   // manifestoooooo
 
   div({ class: 'manifest' }, [
-    h1('Manifest'),
-    h1([
+    h2('Manifest'),
+
+    h3([
       'We are independent artists collectively using technology to transform our world. ',
       'Our system is transformation between universes, physical and virtual. ',
       "We don't need space, time is irrelevant, objects stay as useful as the user. ",
     ]),
+
     h5(
       'Involved collectives: Dachsbau, Sandkasten Syndikat, Setzkasten Wien, Zirkus Mops, Villa Schapira ',
     ),
