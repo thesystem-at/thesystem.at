@@ -99,10 +99,10 @@ export const View = state => [
     },
     date: '',
     description: [
-      'A wormhole into the future ',
-      'An echo in the empty space ',
-      "A shrine to meditate over what's left ",
-      'After the anthropocene',
+      p('A wormhole into the future'),
+      p('An echo in the empty space'),
+      p("A shrine to meditate over what's left"),
+      p('After the anthropocene'),
     ],
   }),
 
