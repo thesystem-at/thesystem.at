@@ -12,8 +12,9 @@ export const View = state => [
 
   Slogan({ subTitle: 'Yppenplatz 5' }),
 
+
 div({ class: 'manifest' }, [
-    p('Week I'),
+    p('August 2020'),
   ]),
 
   ExhibitionWrapper({
@@ -58,7 +59,7 @@ div({ class: 'manifest' }, [
   }),
 
   ExhibitionWrapper({
-    title: 'HEARTBREAKHOTEL',
+    title: 'HeartBreakHotel',
     img: {
       src: '/dagmar.jpg',
       height: 1024,
@@ -85,7 +86,7 @@ div({ class: 'manifest' }, [
   }),
 
     ExhibitionWrapper({
-    title: 'HEARTBREAKHOTEL',
+    title: 'The Wound',
     img: {
       src: '/selina.png',
       height: 1600,
@@ -94,7 +95,7 @@ div({ class: 'manifest' }, [
     presents: {
       pre: {
         text: 'Selina Nowak',
-        to: 'http://www.dagmarrohm.at/',
+        to: 'http://www.mysoundofmusic.at/',
       },
       middle: 'Installation',
       post: 'Opening 18:00 / 19.08 – 23.08',
@@ -107,6 +108,11 @@ div({ class: 'manifest' }, [
       'After the anthropocene',
       ],
   }),
+
+  div({ class: 'manifest' }, [
+    p('September 2020'),
+    p('tba'),
+  ]),
 
 // manifestoooooo
 
