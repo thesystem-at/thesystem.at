@@ -82,9 +82,9 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'The Wound',
     img: {
-      src: '/selina.png',
-      height: 1600,
-      width: 1200,
+      src: '/selina.jpg',
+      height: 1200,
+      width: 1600,
     },
     presents: {
       pre: {
@@ -106,8 +106,8 @@ export const View = state => [
     title: 'Sandkasten',
     img: {
       src: '/sandkasten.jpg',
-      height: 1600,
-      width: 1200,
+      height: 1380,
+      width: 1080,
     },
     presents: {
       pre: {
