@@ -29,7 +29,6 @@ export const View = state => [
       middle: 'presents Hr. Litto',
       post: '11.08. 21:00 – 22:00',
     },
-    date: '',
     description: [
       'An AI, sourced from a drawing, tells us what it learned',
       ' about material properties of the human body.',
@@ -51,7 +50,6 @@ export const View = state => [
       middle: 'performs',
       post: '11.08. 18:00 - 20:30',
     },
-    date: '',
     description: 'cultivating heritage computing for the kids of the future.',
   }),
 
@@ -70,7 +68,6 @@ export const View = state => [
       middle: '',
       post: 'Opening 18:00 / 14.08 – 17.08.',
     },
-    date: '',
     description: [
       'Series framing my work for de-colonialism. ',
       'Colour is no available fund for distinguishing anything. ',
@@ -97,7 +94,6 @@ export const View = state => [
       middle: 'Installation',
       post: 'Opening 18:00 / 19.08 – 23.08',
     },
-    date: '',
     description: [
       p('A wormhole into the future'),
       p('An echo in the empty space'),
@@ -121,10 +117,6 @@ export const View = state => [
       middle: 'Audio and Visual Performance',
       post: 'Opening 18:00 – 22:00 / 26.08 – 30.08',
     },
-    date: '',
-    description: [
-      p(''),
-    ],
   }),
 
   div({ class: 'manifest' }, [p('September 2020'), p('tba')]),

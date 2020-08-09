@@ -5,7 +5,7 @@ export const View = props =>
     div({ class: 'sections' }, [
       h2(props.title),
       Presents(props.presents),
-      Location(props.date),
+      // props.date && Location(props.date),
       section({ class: 'description' }, props.description),
     ]),
   ])
