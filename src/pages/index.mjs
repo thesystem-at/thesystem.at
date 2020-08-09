@@ -103,20 +103,39 @@ export const View = state => [
   }),
 
   ExhibitionWrapper({
-    title: 'Sandkasten',
+    title: 'System, Struktur & DeFragmentierung',
     img: {
       src: '/sandkasten.jpg',
       height: 1380,
       width: 1080,
     },
     presents: {
-      pre: {
-        text: 'elet / aka Je. Jesch & Markus Liszt',
+      pre: [
+        p('System // Markus Liszt'),
+        p([
+          'Struktur // ',
+          Link({
+            text: 'Miss Bubblebliss aka Stephanie Krawinkler',
+            to: 'http://missbubblebliss.at',
+          }),
+        ]),
+        p(['DeFragmentierung // ', Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })]),
+      ],
+      middle: {
+        text: 'Sandkasten Syndikat',
         to: 'https://www.facebook.com/sandkastensyndikat/',
       },
-      middle: 'Audio and Visual Performance',
-      post: 'Opening 18:00 – 22:00 / 26.08 – 30.08',
+
+      post: {
+        text: 'Opening 20:15 – 22:00 / 26.08 – 30.08 / Closing 20:15',
+      },
     },
+    description: [
+      p('Konstruktion, Scan, Reflektion, Verortung'),
+      p('und Zerlegung von Körpern und Objekten'),
+      p('im Raum an analogen und digitalen Schnittstellen. '),
+      p('Zahlenrhytmik mit Seife gespiegelt und in Licht zerlegt. '),
+    ],
   }),
 
   div({ class: 'manifest' }, [p('September 2020'), p('tba')]),
