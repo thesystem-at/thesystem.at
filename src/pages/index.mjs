@@ -131,10 +131,12 @@ export const View = state => [
       },
     },
     description: [
-      p('Konstruktion, Scan, Reflektion, Verortung'),
-      p('und Zerlegung von Körpern und Objekten'),
-      p('im Raum an analogen und digitalen Schnittstellen. '),
-      p('Zahlenrhytmik mit Seife gespiegelt und in Licht zerlegt. '),
+      p([
+        'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
+        ' von Körpern und Objekten',
+        ' im Raum an analogen und digitalen Schnittstellen.'
+      ]),
+      p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
     ],
   }),
 
