@@ -1,8 +1,6 @@
 export const View = props =>
   div({ class: 'ExhibitionWrapper' }, [
-    Polkadot(),
-
-    PreviewImage(props.img),
+    div({ class: 'Dots' }, [Polkadot(), PreviewImage(props.img)]),
 
     div({ class: 'sections' }, [
       h2(props.title),
@@ -17,6 +15,11 @@ export const style = vars => ({
   width: '100%',
   display: 'inline-block',
   margin: '0 0 5em',
+
+  '.Dots': {
+    position: 'relative',
+    display: 'inline-block',
+  },
 
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
     clear: 'none',
