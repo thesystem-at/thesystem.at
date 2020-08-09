@@ -143,6 +143,6 @@ export const View = state => [
     h5(
       'Involved collectives: Dachsbau, Sandkasten Syndikat, Setzkasten Wien, Zirkus Mops, Villa Schapira ',
     ),
-    h5('Concept: Litto / Daniela Weiss, Developement: Jascha Ehrenreich, Text: WARBLAYDR'),
+    h5('Concept: Litto / Daniela Weiss, Development: Jascha Ehrenreich, Text: WARBLAYDR'),
   ]),
 ]
