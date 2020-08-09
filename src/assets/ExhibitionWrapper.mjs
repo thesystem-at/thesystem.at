@@ -21,6 +21,10 @@ export const style = vars => ({
     display: 'inline-block',
   },
 
+  a: {
+    whiteSpace: 'inherit',
+  },
+
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
     clear: 'none',
 
