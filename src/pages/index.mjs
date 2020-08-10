@@ -45,7 +45,7 @@ export const View = state => [
     presents: {
       pre: {
         text: 'WARBLAYDR',
-        to: 'https://primitur.at',
+        to: 'https://soundcloud.com/ibisum/tracks',
       },
       middle: 'performs',
       post: '11.08. 18:00 - 20:30',
