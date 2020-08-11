@@ -36,7 +36,7 @@ export const View = state => [
   }),
 
   ExhibitionWrapper({
-    title: 'The System: garden',
+    title: 'The. System: garden',
     img: {
       src: '/thesystem-garden.png',
       height: 453,
@@ -50,7 +50,14 @@ export const View = state => [
       middle: 'performs',
       post: '11.08. 18:00 - 20:30',
     },
-    description: 'cultivating heritage computing for the kids of the future.',
+    description: [
+      'cultivating heritage computing for the kids of the future.',
+      Link({
+        text: 'live recordings on soundcloud',
+        to: 'https://soundcloud.com/ibisum/tracks',
+      })
+    ],
+
   }),
 
   ExhibitionWrapper({
