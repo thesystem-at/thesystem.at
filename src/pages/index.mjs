@@ -92,7 +92,7 @@ export const View = state => [
         to: 'http://www.mysoundofmusic.at/',
       },
       middle: 'Installation',
-      post: 'Opening 18:00 / 19.08 – 23.08',
+      post: 'Opening 19:00 / 19.08 – 23.08',
     },
     description: [
       p('A wormhole into the future'),
