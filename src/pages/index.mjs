@@ -26,7 +26,7 @@ export const View = state => [
         text: 'Ms. Litto',
         to: 'https://litto.work',
       },
-      middle: 'presents Hr. Litto',
+      middle: ['presents ', Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })],
       post: '11.08. 21:00 – 22:00',
     },
     description: [
@@ -55,9 +55,8 @@ export const View = state => [
       Link({
         text: 'live recordings on soundcloud',
         to: 'https://soundcloud.com/ibisum/tracks',
-      })
+      }),
     ],
-
   }),
 
   ExhibitionWrapper({
@@ -141,7 +140,7 @@ export const View = state => [
       p([
         'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
         ' von Körpern und Objekten',
-        ' im Raum an analogen und digitalen Schnittstellen.'
+        ' im Raum an analogen und digitalen Schnittstellen.',
       ]),
       p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
     ],
