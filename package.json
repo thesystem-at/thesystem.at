@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@magic-modules/no-spy": "0.0.5",
+    "@magic-modules/video-embed": "0.0.4",
     "@magic/core": "0.0.87",
     "@thesystem-at/magic-theme": "github:thesystem-at/magic-theme"
   },
