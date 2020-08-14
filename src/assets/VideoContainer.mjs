@@ -15,6 +15,10 @@ export const style = vars => ({
     display: 'inline-block',
   },
 
+  '.VideoEmbed': {
+    paddingTop: '0',
+  },
+
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
     width: '50vw',
     height: '28.125vw',
