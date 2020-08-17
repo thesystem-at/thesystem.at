@@ -22,10 +22,13 @@ export const View = state => [
       width: 1200,
     },
     presents: {
-      artists: [{
-        text: 'Ms. Litto',
-        to: 'https://litto.work',
-      }, 'presents', { to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' },
+      artists: [
+        {
+          text: 'Ms. Litto',
+          to: 'https://litto.work',
+        },
+        'presents',
+        { to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' },
       ],
       date: '11.08. 21:00 – 22:00',
     },
@@ -48,6 +51,7 @@ export const View = state => [
         to: 'https://soundcloud.com/ibisum/tracks',
       },
       collective: 'Villa Shapira',
+      type: 'Live performance',
       date: '11.08. 18:00 - 20:30',
     },
     description: [
@@ -73,7 +77,7 @@ export const View = state => [
       },
 
       collective: 'Dachsbau',
-      date: 'Opening 18:00 / 14.08 – 17.08.',
+      date: ['Exhibition', '14.08. - 17.08.', 'Opening', '14.08. 18:00'],
     },
     description: [
       'Series framing my work for de-colonialism. ',
@@ -100,7 +104,7 @@ export const View = state => [
         to: 'http://www.mysoundofmusic.at/',
       },
       type: 'Installation',
-      date: 'Opening 19:00 / 19.08 – 23.08',
+      date: ['Exhibition', '19.08. - 23.08.', 'Opening', '19.08. 19:00'],
     },
     description: [
       p('A wormhole into the future'),
@@ -122,10 +126,12 @@ export const View = state => [
         [p('System // '), p('Markus Liszt')],
         [
           p('Struktur // '),
-          p(Link({
-            text: 'Miss Bubblebliss aka Stephanie Krawinkler',
-            to: 'http://missbubblebliss.at',
-          })),
+          p(
+            Link({
+              text: 'Miss Bubblebliss aka Stephanie Krawinkler',
+              to: 'http://missbubblebliss.at',
+            }),
+          ),
         ],
         [
           p('DeFragmentierung // '),
@@ -136,7 +142,15 @@ export const View = state => [
         text: 'Sandkasten Syndikat',
         to: 'https://www.facebook.com/sandkastensyndikat/',
       },
-      date: ['Exhibition', '26.08. - 30.08.', 'Performances', 'Opening 26.08. 20:15 – 22:00', 'Closing 30.08. 20:15 - 22:00'],
+      date: [
+        'Exhibition',
+        '26.08. - 30.08.',
+        'Performances',
+        'Opening',
+        '26.08. 20:15 – 22:00',
+        'Closing',
+        '30.08. 20:15 - 22:00',
+      ],
     },
     description: [
       p([
