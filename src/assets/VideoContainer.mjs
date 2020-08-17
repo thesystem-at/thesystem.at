@@ -1,7 +1,8 @@
 export const View = url =>
   div({ class: 'VideoContainer' }, [
     //Img({ src: '/liveStream.png', height: 388, width: 621 }),
-    VideoEmbed({ src: 'Dy36d_cNQq4' }),
+    // Litto : VideoEmbed({ src: 'Dy36d_cNQq4' }),
+    VideoEmbed({ src: 'qwLkYQc8Pn0' }),
   ])
 
 export const style = vars => ({

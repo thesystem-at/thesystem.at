@@ -144,12 +144,12 @@ export const View = state => [
       },
       date: [
         'Exhibition',
-        '26.08. - 30.08.',
+        '26.08. – 30.08.',
         'Performances',
         'Opening',
         '26.08. 20:15 – 22:00',
         'Closing',
-        '30.08. 20:15 - 22:00',
+        '30.08. 20:15 – 22:00',
       ],
     },
     description: [
