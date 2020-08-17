@@ -22,12 +22,12 @@ export const View = state => [
       width: 1200,
     },
     presents: {
-      pre: {
+      artists: [{
         text: 'Ms. Litto',
         to: 'https://litto.work',
-      },
-      middle: ['presents ', Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })],
-      post: '11.08. 21:00 – 22:00',
+      }, 'presents', { to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' },
+      ],
+      date: '11.08. 21:00 – 22:00',
     },
     description: [
       'An AI, sourced from a drawing, tells us what it learned',
@@ -43,12 +43,12 @@ export const View = state => [
       width: 606,
     },
     presents: {
-      pre: {
+      artists: {
         text: 'WARBLAYDR',
         to: 'https://soundcloud.com/ibisum/tracks',
       },
-      middle: 'performs',
-      post: '11.08. 18:00 - 20:30',
+      collective: 'Villa Shapira',
+      date: '11.08. 18:00 - 20:30',
     },
     description: [
       'cultivating heritage computing for the kids of the future.',
@@ -67,12 +67,13 @@ export const View = state => [
       width: 1017,
     },
     presents: {
-      pre: {
+      artists: {
         text: 'Dagmar Rohm',
         to: 'http://www.dagmarrohm.at/',
       },
-      middle: '',
-      post: 'Opening 18:00 / 14.08 – 17.08.',
+
+      collective: 'Dachsbau',
+      date: 'Opening 18:00 / 14.08 – 17.08.',
     },
     description: [
       'Series framing my work for de-colonialism. ',
@@ -93,12 +94,13 @@ export const View = state => [
       width: 1600,
     },
     presents: {
-      pre: {
-        text: 'Selina Nowak',
+      artists: 'Selina Nowak',
+      collective: {
+        text: 'Zirkus Mops',
         to: 'http://www.mysoundofmusic.at/',
       },
-      middle: 'Installation',
-      post: 'Opening 19:00 / 19.08 – 23.08',
+      type: 'Installation',
+      date: 'Opening 19:00 / 19.08 – 23.08',
     },
     description: [
       p('A wormhole into the future'),
@@ -116,25 +118,25 @@ export const View = state => [
       width: 1080,
     },
     presents: {
-      pre: [
-        p('System // Markus Liszt'),
-        p([
-          'Struktur // ',
-          Link({
+      artists: [
+        [p('System // '), p('Markus Liszt')],
+        [
+          p('Struktur // '),
+          p(Link({
             text: 'Miss Bubblebliss aka Stephanie Krawinkler',
             to: 'http://missbubblebliss.at',
-          }),
-        ]),
-        p(['DeFragmentierung // ', Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })]),
+          })),
+        ],
+        [
+          p('DeFragmentierung // '),
+          p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
+        ],
       ],
-      middle: {
+      collective: {
         text: 'Sandkasten Syndikat',
         to: 'https://www.facebook.com/sandkastensyndikat/',
       },
-
-      post: {
-        text: 'Opening 20:15 – 22:00 / 26.08 – 30.08 / Closing 20:15',
-      },
+      date: ['Exhibition', '26.08. - 30.08.', 'Performances', 'Opening 26.08. 20:15 – 22:00', 'Closing 30.08. 20:15 - 22:00'],
     },
     description: [
       p([
