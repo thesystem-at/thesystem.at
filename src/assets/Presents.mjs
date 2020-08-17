@@ -1,6 +1,14 @@
-export const View = state =>
-  section({ class: 'presents' }, [
-    state.pre && p(state.pre.to ? Link(state.pre) : state.pre),
-    state.middle && p(state.middle.to ? Link(state.middle) : state.middle),
-    state.post && p(state.post.to ? Link(state.post) : state.post),
+export const View = state => {
+  if (state.artists && !Array.isArray(state.artists)) {
+    state.artists = [state.artists]
+  }
+
+  const { artists = [], collective, date, type } = state
+
+  return section({ class: 'presents' }, [
+    artists.length > 0 && h3(artists.map(a => p(a.to ? Link(a) : a))),
+    collective && h4(collective.to ? Link(collective) : collective),
+    type && p(type),
+    date && p(Array.isArray(date) ? date.map(d => p(d)) : date),
   ])
+}
