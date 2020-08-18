@@ -15,7 +15,7 @@ export const View = state => [
   div({ class: 'manifest' }, [p('August 2020')]),
 
   ExhibitionWrapper({
-    title: 'The human body…',
+    title: 'No hair…',
     img: {
       src: '/thesystem-thebody.jpg',
       height: 900,
