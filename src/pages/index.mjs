@@ -14,6 +14,85 @@ export const View = state => [
 
   div({ class: 'manifest' }, [p('August 2020')]),
 
+  
+
+  
+
+  ExhibitionWrapper({
+    title: 'The Wound',
+    img: {
+      src: '/selina.jpg',
+      height: 1200,
+      width: 1600,
+    },
+    presents: {
+      artists: 'Selina Nowak',
+      collective: {
+        text: 'Zirkus Mops',
+        to: 'http://www.mysoundofmusic.at/',
+      },
+      type: 'Installation',
+      date: ['Exhibition', '19.08. - 23.08.', 'Opening', '19.08. 19:00'],
+    },
+    description: [
+      p('A wormhole into the future'),
+      p('An echo in the empty space'),
+      p("A shrine to meditate over what's left"),
+      p('After the anthropocene'),
+    ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'System, Struktur & DeFragmentierung',
+    img: {
+      src: '/sandkasten.jpg',
+      height: 1380,
+      width: 1080,
+    },
+    presents: {
+      artists: [
+        [p('System // '), p('Markus Liszt')],
+        [
+          p('Struktur // '),
+          p(
+            Link({
+              text: 'Miss Bubblebliss aka Stephanie Krawinkler',
+              to: 'http://missbubblebliss.at',
+            }),
+          ),
+        ],
+        [
+          p('DeFragmentierung // '),
+          p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
+        ],
+      ],
+      collective: {
+        text: 'Sandkasten Syndikat',
+        to: 'https://www.facebook.com/sandkastensyndikat/',
+      },
+      date: [
+        'Exhibition',
+        '26.08. – 30.08.',
+        'Performances',
+        'Opening',
+        '26.08. 20:15 – 22:00',
+        'Closing',
+        '30.08. 20:15 – 22:00',
+      ],
+    },
+    description: [
+      p([
+        'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
+        ' von Körpern und Objekten',
+        ' im Raum an analogen und digitalen Schnittstellen.',
+      ]),
+      p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
+    ],
+  }),
+
+  div({ class: 'manifest' }, [p('Past Events'), p('')]),
+
+
   ExhibitionWrapper({
     title: 'No hair…',
     img: {
@@ -87,78 +166,6 @@ export const View = state => [
       'This work examines the beginning of Rock‘n Roll, which came out of the rhythm of Black music. ',
       'It‘s Elvis, who won a „game“, because he had the right colour of skin. ',
       'The hidden winner could have been the black people, who still are persecuted by lot‘s of whites, thinking, they‘ve got to fight a war, full of hostility. ',
-    ],
-  }),
-
-  ExhibitionWrapper({
-    title: 'The Wound',
-    img: {
-      src: '/selina.jpg',
-      height: 1200,
-      width: 1600,
-    },
-    presents: {
-      artists: 'Selina Nowak',
-      collective: {
-        text: 'Zirkus Mops',
-        to: 'http://www.mysoundofmusic.at/',
-      },
-      type: 'Installation',
-      date: ['Exhibition', '19.08. - 23.08.', 'Opening', '19.08. 19:00'],
-    },
-    description: [
-      p('A wormhole into the future'),
-      p('An echo in the empty space'),
-      p("A shrine to meditate over what's left"),
-      p('After the anthropocene'),
-    ],
-  }),
-
-  ExhibitionWrapper({
-    title: 'System, Struktur & DeFragmentierung',
-    img: {
-      src: '/sandkasten.jpg',
-      height: 1380,
-      width: 1080,
-    },
-    presents: {
-      artists: [
-        [p('System // '), p('Markus Liszt')],
-        [
-          p('Struktur // '),
-          p(
-            Link({
-              text: 'Miss Bubblebliss aka Stephanie Krawinkler',
-              to: 'http://missbubblebliss.at',
-            }),
-          ),
-        ],
-        [
-          p('DeFragmentierung // '),
-          p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
-        ],
-      ],
-      collective: {
-        text: 'Sandkasten Syndikat',
-        to: 'https://www.facebook.com/sandkastensyndikat/',
-      },
-      date: [
-        'Exhibition',
-        '26.08. – 30.08.',
-        'Performances',
-        'Opening',
-        '26.08. 20:15 – 22:00',
-        'Closing',
-        '30.08. 20:15 – 22:00',
-      ],
-    },
-    description: [
-      p([
-        'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
-        ' von Körpern und Objekten',
-        ' im Raum an analogen und digitalen Schnittstellen.',
-      ]),
-      p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
     ],
   }),
 
