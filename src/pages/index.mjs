@@ -108,7 +108,7 @@ export const View = state => [
       artists: [
         [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
         [p(Link({ text: 'Marco Otoya', to: 'http://www.mysoundofmusic.at/' }))],
-        [p(Link({ text: 'Sebastian Schmid', to: '' }))],
+        [p('Sebastian Schmid')],
       ],
 
       collective: 'Zirkus Mops',
@@ -139,12 +139,12 @@ export const View = state => [
     },
     presents: {
       artists: [
-        {
+        p(Link({
           text: 'Ms. Litto',
           to: 'https://litto.work',
-        },
-        'presents',
-        { to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' },
+        })),
+        p('presents'),
+        p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
       ],
       collective: 'Villa Schapira',
 
