@@ -6,7 +6,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'The Wound',
     img: {
-      src: '/thesystem-wound.jpg',
+      src: '/thesystem-selinanowak-thewound.jpg',
       height: 1200,
       width: 1600,
     },
@@ -30,7 +30,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
     img: {
-      src: '/sandkasten.jpg',
+      src: '/thesystem-sandkasten-syndikat.jpg',
       height: 1380,
       width: 1080,
     },
@@ -79,7 +79,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'Systeme & Menschen',
     img: {
-      src: '/stizz.jpg',
+      src: '/thesystem-stizz-systemeundmenschen.jpg',
       height: 1280,
       width: 960,
     },
@@ -100,7 +100,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'Work',
     img: {
-      src: '/work_zirkusMops.jpg',
+      src: '/thesystem-zirkusmops-work.jpg',
       height: 1200,
       width: 1028,
     },
@@ -133,7 +133,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'No hair…',
     img: {
-      src: '/thesystem-thebody.jpg',
+      src: '/thesystem-litto-thebody.jpg',
       height: 900,
       width: 1200,
     },
@@ -159,7 +159,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'The. System: garden',
     img: {
-      src: '/thesystem-garden.png',
+      src: '/thesystem-warblaydr-garden.png',
       height: 453,
       width: 606,
     },
@@ -184,7 +184,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'HeartBreakHotel',
     img: {
-      src: '/dagmar.jpg',
+      src: '/thesystem-dagmarrohm-heartbreakhotel.jpg',
       height: 1024,
       width: 1017,
     },
