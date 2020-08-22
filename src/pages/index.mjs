@@ -14,10 +14,6 @@ export const View = state => [
 
   div({ class: 'manifest' }, [p('August 2020')]),
 
-  
-
-  
-
   ExhibitionWrapper({
     title: 'The Wound',
     img: {
@@ -51,20 +47,19 @@ export const View = state => [
     },
     presents: {
       artists: [
-        [p('System // '), p('Markus Liszt')],
-        [
-          p('Struktur // '),
-          p(
-            Link({
-              text: 'Miss Bubblebliss aka Stephanie Krawinkler',
-              to: 'http://missbubblebliss.at',
-            }),
-          ),
-        ],
-        [
-          p('DeFragmentierung // '),
-          p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
-        ],
+        p('System // '),
+        p('Markus Liszt'),
+
+        p('Struktur // '),
+        p(
+          Link({
+            text: 'Miss Bubblebliss aka Stephanie Krawinkler',
+            to: 'http://missbubblebliss.at',
+          }),
+        ),
+
+        p('DeFragmentierung // '),
+        p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
       ],
       collective: {
         text: 'Sandkasten Syndikat',
@@ -90,8 +85,60 @@ export const View = state => [
     ],
   }),
 
-  div({ class: 'manifest' }, [p('Past Events'), p('')]),
+  div({ class: 'manifest' }, [p('Week one, September 2020')]),
 
+  ExhibitionWrapper({
+      title: 'Systeme & Menschen',
+      img: {
+        src: '/stizz.jpg',
+        height: 1280,
+        width: 960,
+      },
+      presents: {
+        artists: 'Stefan Stürzer',
+        collective: 'Villa Schapira',
+        date: ['Exhibition', '1.09. - 6.09.', 'Opening', '1.09. 19:30'],
+      },
+      description: [
+        'Wir leben in einer Zeit in der Menschen ', 
+        'viel zu oft für die Erhaltung von Systemen arbeitet. ',
+        'Systeme die von Menschen erfunden wurden!',
+        'Systeme sollten eigentiich für die Menschen existieren und nicht umgekehrt. ',
+        'Eine philosophische Auseinandersetzung.',
+      ],
+    }),
+
+
+  ExhibitionWrapper({
+    title: 'Work',
+    img: {
+      src: '/work_zirkusMops.jpg',
+      height: 1200,
+      width: 1028,
+    },
+    presents: {
+      artists: [
+        [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
+        [p(Link({ text: 'Marco Otoya', to: 'http://www.mysoundofmusic.at/' }))],
+        [p(Link({ text: 'Sebastian Schmid', to: '' }))],
+      ],
+
+      collective: 'Zirkus Mops',
+      date: ['Exhibition', '3.09', 'Rauminstallation', '3.09 – 6.09'],
+    },
+    description: [
+      'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
+      'Automatismus generiert, die aber notwendig in unserem Leben ist. Wie kann uns die ',
+      'Angst vor einem Risiko und vor einer Änderung paralysieren? Kann die Routine uns in ',
+      'ein Möbelstück verwandeln? Ist die Routine etwas positives oder nicht, oder aber ',
+      'könnten wir die Routine ändern oder transformieren? Oder besser nicht?',br(),br(),
+    
+      'Musik: Nyman: Double Concerto For Saxophone & Cello - Mvt.5',
+      'John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra',
+    ],
+  }),
+
+  div({ class: 'manifest' }, [p('Past Events'), p('')]),
 
   ExhibitionWrapper({
     title: 'No hair…',
@@ -109,6 +156,9 @@ export const View = state => [
         'presents',
         { to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' },
       ],
+      collective: 
+        'Villa Schapira',
+
       date: '11.08. 21:00 – 22:00',
     },
     description: [
@@ -129,7 +179,7 @@ export const View = state => [
         text: 'WARBLAYDR',
         to: 'https://soundcloud.com/ibisum/tracks',
       },
-      collective: 'Villa Shapira',
+      collective: 'Villa Schapira',
       type: 'Live performance',
       date: '11.08. 18:00 - 20:30',
     },
@@ -168,8 +218,6 @@ export const View = state => [
       'The hidden winner could have been the black people, who still are persecuted by lot‘s of whites, thinking, they‘ve got to fight a war, full of hostility. ',
     ],
   }),
-
-  div({ class: 'manifest' }, [p('September 2020'), p('tba')]),
 
   // manifestoooooo
 
