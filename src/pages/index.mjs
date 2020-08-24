@@ -101,7 +101,7 @@ export const View = state => [
     }),
 
   ExhibitionWrapper({
-    title: 'Work',
+    title: '"Work"',
     img: {
       src: '/thesystem-zirkusmops-work.jpg',
       height: 1200,
@@ -114,8 +114,8 @@ export const View = state => [
         [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
       ],
 
-      collective: 'Zirkus Mops',
-      date: ['Exhibition', '3.09', 'Rauminstallation', '3.09 – 7.09'],
+      collective: 'Villa Schapira',
+      date: ['Opening Performance', '3.09', 'Rauminstallation', '3.09 – 7.09'],
     },
     description: [
       'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
