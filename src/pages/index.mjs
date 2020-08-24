@@ -101,7 +101,7 @@ export const View = state => [
     }),
 
   ExhibitionWrapper({
-    title: '"Work',
+    title: '"Work"',
     img: {
       src: '/thesystem-zirkusmops-work.jpg',
       height: 1200,
@@ -109,8 +109,8 @@ export const View = state => [
     },
     presents: {
       artists: [
-        [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
         [p(Link({ text: 'Marco Otoya', to: 'http://www.mysoundofmusic.at/' }))],
+        [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
         [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
       ],
 
