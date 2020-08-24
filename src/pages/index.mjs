@@ -95,9 +95,12 @@ export const View = state => [
         width: 960,
       },
       presents: {
-        artists: 'Stefan Stürzer',
+        artists: {
+          text: 'Stefan Stürzer',
+          to: 'https://absturz.info',
+        },
         collective: 'Villa Schapira',
-        date: ['Exhibition', '1.09. - 6.09.', 'Opening', '1.09. 19:30'],
+        date: ['Exhibition', '1.09. - 7.09.', 'Opening', '1.09. 19:30'],
       },
       description: [
         'Wir leben in einer Zeit in der Menschen ', 
@@ -124,7 +127,7 @@ export const View = state => [
       ],
 
       collective: 'Zirkus Mops',
-      date: ['Exhibition', '3.09', 'Rauminstallation', '3.09 – 6.09'],
+      date: ['Exhibition', '3.09', 'Rauminstallation', '3.09 – 7.09'],
     },
     description: [
       'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
