@@ -109,7 +109,7 @@ export const View = state => [
     },
     presents: {
       artists: [
-        [p(Link({ text: 'Marco Otoya', to: 'http://www.mysoundofmusic.at/' }))],
+        [p(Link({ text: 'Marco Otoya', to: 'https://culturaespiral.com/marco-otoya/' }))],
         [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
         [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
       ],
