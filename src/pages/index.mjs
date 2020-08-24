@@ -1,23 +1,12 @@
 export const View = state => [
-  VideoContainer({
-    ...state,
-    message: [
-      'On 31.07.2020, 21:30 hours Viennese time (GMT + 1),',
-      br(),
-      ' this image will turn into a video.',
-      br(),
-      'The livestream will start at 22:00',
-    ],
-  }),
+  div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Yppenplatz 5' })]),
 
-  Slogan({ subTitle: 'Yppenplatz 5' }),
-
-  div({ class: 'manifest' }, [p('August 2020')]),
+  div({ class: 'month-title' }, 'August 2020'),
 
   ExhibitionWrapper({
     title: 'The Wound',
     img: {
-      src: '/selina.jpg',
+      src: '/thesystem-selinanowak-thewound.jpg',
       height: 1200,
       width: 1600,
     },
@@ -41,7 +30,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
     img: {
-      src: '/sandkasten.jpg',
+      src: '/thesystem-sandkasten-syndikat.jpg',
       height: 1380,
       width: 1080,
     },
@@ -78,19 +67,19 @@ export const View = state => [
     description: [
       p([
         'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
-        ' von Körpern und Objekten',
-        ' im Raum an analogen und digitalen Schnittstellen.',
+        ' von Körpern und Objekten im Raum',
+        ' an analogen und digitalen Schnittstellen.',
       ]),
       p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
     ],
   }),
 
-  div({ class: 'manifest' }, [p('Week one, September 2020')]),
+  div({ class: 'month-title' }, 'Week one, September 2020'),
 
   ExhibitionWrapper({
       title: 'Systeme & Menschen',
       img: {
-        src: '/stizz.jpg',
+        src: '/thesystem-stizz-systemeundmenschen.jpg',
         height: 1280,
         width: 960,
       },
@@ -103,19 +92,18 @@ export const View = state => [
         date: ['Exhibition', '1.09. - 7.09.', 'Opening', '1.09. 19:30'],
       },
       description: [
-        'Wir leben in einer Zeit in der Menschen ', 
-        'viel zu oft für die Erhaltung von Systemen arbeitet. ',
-        'Systeme die von Menschen erfunden wurden!',
-        'Systeme sollten eigentiich für die Menschen existieren und nicht umgekehrt. ',
-        'Eine philosophische Auseinandersetzung.',
+        'Wir leben in einer Zeit in der Menschen', 
+        ' viel zu oft für die Erhaltung von Systemen arbeitet.',
+        ' Systeme die von Menschen erfunden wurden!',
+        ' Systeme sollten eigentlich für die Menschen existieren und nicht umgekehrt.',
+        ' Eine philosophische Auseinandersetzung.',
       ],
     }),
-
 
   ExhibitionWrapper({
     title: 'Work',
     img: {
-      src: '/work_zirkusMops.jpg',
+      src: '/thesystem-zirkusmops-work.jpg',
       height: 1200,
       width: 1028,
     },
@@ -123,7 +111,7 @@ export const View = state => [
       artists: [
         [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
         [p(Link({ text: 'Marco Otoya', to: 'http://www.mysoundofmusic.at/' }))],
-        [p(Link({ text: 'Sebastian Schmid', to: '' }))],
+        [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
       ],
 
       collective: 'Zirkus Mops',
@@ -134,33 +122,34 @@ export const View = state => [
       'Automatismus generiert, die aber notwendig in unserem Leben ist. Wie kann uns die ',
       'Angst vor einem Risiko und vor einer Änderung paralysieren? Kann die Routine uns in ',
       'ein Möbelstück verwandeln? Ist die Routine etwas positives oder nicht, oder aber ',
-      'könnten wir die Routine ändern oder transformieren? Oder besser nicht?',br(),br(),
-    
+      'könnten wir die Routine ändern oder transformieren? Oder besser nicht?',
+      br(),
+      br(),
+
       'Musik: Nyman: Double Concerto For Saxophone & Cello - Mvt.5',
       'John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra',
     ],
   }),
 
-  div({ class: 'manifest' }, [p('Past Events'), p('')]),
+  div({ class: 'month-title' }, 'Past Events'),
 
   ExhibitionWrapper({
     title: 'No hair…',
     img: {
-      src: '/thesystem-thebody.jpg',
+      src: '/thesystem-litto-thebody.jpg',
       height: 900,
       width: 1200,
     },
     presents: {
       artists: [
-        {
+        p(Link({
           text: 'Ms. Litto',
           to: 'https://litto.work',
-        },
-        'presents',
-        { to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' },
+        })),
+        p('presents'),
+        p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
       ],
-      collective: 
-        'Villa Schapira',
+      collective: 'Villa Schapira',
 
       date: '11.08. 21:00 – 22:00',
     },
@@ -173,7 +162,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'The. System: garden',
     img: {
-      src: '/thesystem-garden.png',
+      src: '/thesystem-warblaydr-garden.png',
       height: 453,
       width: 606,
     },
@@ -198,7 +187,7 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'HeartBreakHotel',
     img: {
-      src: '/dagmar.jpg',
+      src: '/thesystem-dagmarrohm-heartbreakhotel.jpg',
       height: 1024,
       width: 1017,
     },
@@ -218,11 +207,10 @@ export const View = state => [
       'Looking after historical perspectives is looking for unfairness. ',
       'This work examines the beginning of Rock‘n Roll, which came out of the rhythm of Black music. ',
       'It‘s Elvis, who won a „game“, because he had the right colour of skin. ',
-      'The hidden winner could have been the black people, who still are persecuted by lot‘s of whites, thinking, they‘ve got to fight a war, full of hostility. ',
+      'The hidden winner could have been the black people, who still are persecuted by lot‘s of whites',
+      ' thinking, they‘ve got to fight a war, full of hostility.',
     ],
   }),
-
-  // manifestoooooo
 
   div({ class: 'manifest' }, [
     h2('Manifest'),

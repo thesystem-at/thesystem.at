@@ -37,7 +37,7 @@ export const style = vars => ({
     },
 
     img: {
-      margin: '1vw 0 0 2vw',
+      margin: '1vw 0 0',
       float: 'left',
     },
   },
