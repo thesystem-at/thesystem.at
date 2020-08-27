@@ -77,28 +77,28 @@ export const View = state => [
   div({ class: 'month-title' }, 'Week one, September 2020'),
 
   ExhibitionWrapper({
-      title: 'Systeme & Menschen',
-      img: {
-        src: '/thesystem-stizz-systemeundmenschen.jpg',
-        height: 1280,
-        width: 960,
+    title: 'Systeme & Menschen',
+    img: {
+      src: '/thesystem-stizz-systemeundmenschen.jpg',
+      height: 1280,
+      width: 960,
+    },
+    presents: {
+      artists: {
+        text: 'Stefan Stürzer',
+        to: 'https://absturz.info',
       },
-      presents: {
-        artists: {
-          text: 'Stefan Stürzer',
-          to: 'https://absturz.info',
-        },
-        collective: 'Villa Schapira',
-        date: ['Exhibition', '1.09. - 7.09.', 'Opening', '1.09. 19:30'],
-      },
-      description: [
-        'Wir leben in einer Zeit in der Menschen', 
-        ' viel zu oft für die Erhaltung von Systemen arbeitet.',
-        ' Systeme die von Menschen erfunden wurden!',
-        ' Systeme sollten eigentlich für die Menschen existieren und nicht umgekehrt.',
-        ' Eine philosophische Auseinandersetzung.',
-      ],
-    }),
+      collective: 'Villa Schapira',
+      date: ['Exhibition', '1.09. - 7.09.', 'Opening', '1.09. 19:30'],
+    },
+    description: [
+      'Wir leben in einer Zeit in der Menschen',
+      ' viel zu oft für die Erhaltung von Systemen arbeitet.',
+      ' Systeme die von Menschen erfunden wurden!',
+      ' Systeme sollten eigentlich für die Menschen existieren und nicht umgekehrt.',
+      ' Eine philosophische Auseinandersetzung.',
+    ],
+  }),
 
   ExhibitionWrapper({
     title: 'Work',
@@ -126,8 +126,8 @@ export const View = state => [
       br(),
       br(),
 
-      'Musik: Nyman: Double Concerto For Saxophone & Cello - Mvt.5',
-      'John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra',
+      p('Musik: Nyman: Double Concerto For Saxophone & Cello - Mvt.5'),
+      p('John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra'),
     ],
   }),
 
@@ -142,10 +142,12 @@ export const View = state => [
     },
     presents: {
       artists: [
-        p(Link({
-          text: 'Ms. Litto',
-          to: 'https://litto.work',
-        })),
+        p(
+          Link({
+            text: 'Ms. Litto',
+            to: 'https://litto.work',
+          }),
+        ),
         p('presents'),
         p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
       ],
