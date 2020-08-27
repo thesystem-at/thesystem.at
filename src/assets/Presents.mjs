@@ -6,7 +6,7 @@ export const View = state => {
   const { artists = [], collective, date, type } = state
 
   return section({ class: 'presents' }, [
-    artists.length > 0 && h3(artists.map(a => a.to ? Link(a) : a)),
+    artists.length > 0 && h3(artists.map(a => (a.to ? Link(a) : a))),
     collective && h4(collective.to ? Link(collective) : collective),
     type && p(type),
     date && p(Array.isArray(date) ? date.map(d => p(d)) : date),
