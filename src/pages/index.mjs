@@ -3,29 +3,6 @@ export const View = state => [
 
   div({ class: 'month-title' }, 'August 2020'),
 
-  ExhibitionWrapper({
-    title: 'The Wound',
-    img: {
-      src: '/thesystem-selinanowak-thewound.jpg',
-      height: 1200,
-      width: 1600,
-    },
-    presents: {
-      artists: 'Selina Nowak',
-      collective: {
-        text: 'Zirkus Mops',
-        to: 'http://www.mysoundofmusic.at/',
-      },
-      type: 'Installation',
-      date: ['Exhibition', '19.08. - 23.08.', 'Opening', '19.08. 19:00'],
-    },
-    description: [
-      p('A wormhole into the future'),
-      p('An echo in the empty space'),
-      p("A shrine to meditate over what's left"),
-      p('After the anthropocene'),
-    ],
-  }),
 
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
@@ -101,7 +78,7 @@ export const View = state => [
   }),
 
   ExhibitionWrapper({
-    title: 'Work',
+    title: '"Work"',
     img: {
       src: '/thesystem-zirkusmops-work.jpg',
       height: 1200,
@@ -109,13 +86,13 @@ export const View = state => [
     },
     presents: {
       artists: [
+        [p(Link({ text: 'Marco Otoya', to: 'https://culturaespiral.com/marco-otoya/' }))],
         [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
-        [p(Link({ text: 'Marco Otoya', to: 'http://www.mysoundofmusic.at/' }))],
         [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
       ],
 
-      collective: 'Zirkus Mops',
-      date: ['Exhibition', '3.09', 'Rauminstallation', '3.09 – 7.09'],
+      collective: 'Villa Schapira',
+      date: ['Opening Performance', '3.09 19:00', 'Rauminstallation', '3.09 – 7.09'],
     },
     description: [
       'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
@@ -134,55 +111,26 @@ export const View = state => [
   div({ class: 'month-title' }, 'Past Events'),
 
   ExhibitionWrapper({
-    title: 'No hair…',
+    title: 'The Wound',
     img: {
-      src: '/thesystem-litto-thebody.jpg',
-      height: 900,
-      width: 1200,
+      src: '/thesystem-selinanowak-thewound.jpg',
+      height: 1200,
+      width: 1600,
     },
     presents: {
-      artists: [
-        p(
-          Link({
-            text: 'Ms. Litto',
-            to: 'https://litto.work',
-          }),
-        ),
-        p('presents'),
-        p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
-      ],
-      collective: 'Villa Schapira',
-
-      date: '11.08. 21:00 – 22:00',
-    },
-    description: [
-      'An AI, sourced from a drawing, tells us what it learned',
-      ' about material properties of the human body.',
-    ],
-  }),
-
-  ExhibitionWrapper({
-    title: 'The. System: garden',
-    img: {
-      src: '/thesystem-warblaydr-garden.png',
-      height: 453,
-      width: 606,
-    },
-    presents: {
-      artists: {
-        text: 'WARBLAYDR',
-        to: 'https://soundcloud.com/ibisum/tracks',
+      artists: 'Selina Nowak',
+      collective: {
+        text: 'Zirkus Mops',
+        to: 'http://www.mysoundofmusic.at/',
       },
-      collective: 'Villa Schapira',
-      type: 'Live performance',
-      date: '11.08. 18:00 - 20:30',
+      type: 'Installation',
+      date: ['Exhibition', '19.08. - 23.08.', 'Opening', '19.08. 19:00'],
     },
     description: [
-      'cultivating heritage computing for the kids of the future.',
-      Link({
-        text: 'live recordings on soundcloud',
-        to: 'https://soundcloud.com/ibisum/tracks',
-      }),
+      p('A wormhole into the future'),
+      p('An echo in the empty space'),
+      p("A shrine to meditate over what's left"),
+      p('After the anthropocene'),
     ],
   }),
 
@@ -213,6 +161,60 @@ export const View = state => [
       ' thinking, they‘ve got to fight a war, full of hostility.',
     ],
   }),
+
+
+  ExhibitionWrapper({
+    title: 'The. System: garden',
+    img: {
+      src: '/thesystem-warblaydr-garden.png',
+      height: 453,
+      width: 606,
+    },
+    presents: {
+      artists: {
+        text: 'WARBLAYDR',
+        to: 'https://soundcloud.com/ibisum/tracks',
+      },
+      collective: 'Villa Schapira',
+      type: 'Live performance',
+      date: '11.08. 18:00 - 20:30',
+    },
+    description: [
+      'cultivating heritage computing for the kids of the future.',
+      Link({
+        text: 'live recordings on soundcloud',
+        to: 'https://soundcloud.com/ibisum/tracks',
+      }),
+    ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'No hair…',
+    img: {
+      src: '/thesystem-litto-thebody.jpg',
+      height: 900,
+      width: 1200,
+    },
+    presents: {
+      artists: [
+        p(Link({
+          text: 'Ms. Litto',
+          to: 'https://litto.work',
+        })),
+        p('presents'),
+        p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
+      ],
+      collective: 'Villa Schapira',
+
+      date: '11.08. 21:00 – 22:00',
+    },
+    description: [
+      'An AI, sourced from a drawing, tells us what it learned',
+      ' about material properties of the human body.',
+    ],
+  }),
+
+
 
   div({ class: 'manifest' }, [
     h2('Manifest'),
