@@ -1,7 +1,6 @@
 export const View = state => [
   div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Yppenplatz 5' })]),
 
-
   div({ class: 'month-title' }, 'Week one, September 2020'),
 
   ExhibitionWrapper({
@@ -61,12 +60,9 @@ export const View = state => [
 
   div({ class: 'month-title' }, 'week 2 - 3, September 2020 t.b.a.'),
 
-
   div({ class: 'month-title' }, 'Past Events'),
   //div({ class: 'month-title' }, 'August 2020'),
 
-
-  
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
     img: {
@@ -166,7 +162,6 @@ export const View = state => [
     ],
   }),
 
-
   ExhibitionWrapper({
     title: 'The. System: garden',
     img: {
@@ -201,10 +196,12 @@ export const View = state => [
     },
     presents: {
       artists: [
-        p(Link({
-          text: 'Ms. Litto',
-          to: 'https://litto.work',
-        })),
+        p(
+          Link({
+            text: 'Ms. Litto',
+            to: 'https://litto.work',
+          }),
+        ),
         p('presents'),
         p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
       ],
@@ -217,8 +214,6 @@ export const View = state => [
       ' about material properties of the human body.',
     ],
   }),
-
-
 
   div({ class: 'manifest' }, [
     h2('Manifest'),
