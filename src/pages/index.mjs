@@ -1,55 +1,6 @@
 export const View = state => [
   div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Yppenplatz 5' })]),
 
-  div({ class: 'month-title' }, 'August 2020'),
-
-
-  ExhibitionWrapper({
-    title: 'System, Struktur & DeFragmentierung',
-    img: {
-      src: '/thesystem-sandkasten-syndikat.jpg',
-      height: 1380,
-      width: 1080,
-    },
-    presents: {
-      artists: [
-        p('System // '),
-        p('Markus Liszt'),
-
-        p('Struktur // '),
-        p(
-          Link({
-            text: 'Miss Bubblebliss aka Stephanie Krawinkler',
-            to: 'http://missbubblebliss.at',
-          }),
-        ),
-
-        p('DeFragmentierung // '),
-        p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
-      ],
-      collective: {
-        text: 'Sandkasten Syndikat',
-        to: 'https://www.facebook.com/sandkastensyndikat/',
-      },
-      date: [
-        'Exhibition',
-        '26.08. – 30.08.',
-        'Performances',
-        'Opening',
-        '26.08. 20:15 – 22:00',
-        'Closing',
-        '30.08. 20:15 – 22:00',
-      ],
-    },
-    description: [
-      p([
-        'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
-        ' von Körpern und Objekten im Raum',
-        ' an analogen und digitalen Schnittstellen.',
-      ]),
-      p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
-    ],
-  }),
 
   div({ class: 'month-title' }, 'Week one, September 2020'),
 
@@ -108,7 +59,60 @@ export const View = state => [
     ],
   }),
 
+  div({ class: 'month-title' }, 'week 2 - 3, September 2020 t.b.a.'),
+
+
   div({ class: 'month-title' }, 'Past Events'),
+  //div({ class: 'month-title' }, 'August 2020'),
+
+
+  
+  ExhibitionWrapper({
+    title: 'System, Struktur & DeFragmentierung',
+    img: {
+      src: '/thesystem-sandkasten-syndikat.jpg',
+      height: 1380,
+      width: 1080,
+    },
+    presents: {
+      artists: [
+        p('System // '),
+        p('Markus Liszt'),
+
+        p('Struktur // '),
+        p(
+          Link({
+            text: 'Miss Bubblebliss aka Stephanie Krawinkler',
+            to: 'http://missbubblebliss.at',
+          }),
+        ),
+
+        p('DeFragmentierung // '),
+        p(Link({ text: 'elet aka. Je.Jesch', to: 'https://elet.cc/' })),
+      ],
+      collective: {
+        text: 'Sandkasten Syndikat',
+        to: 'https://www.facebook.com/sandkastensyndikat/',
+      },
+      date: [
+        'Exhibition',
+        '26.08. – 30.08.',
+        'Performances',
+        'Opening',
+        '26.08. 20:15 – 22:00',
+        'Closing',
+        '30.08. 20:15 – 22:00',
+      ],
+    },
+    description: [
+      p([
+        'Konstruktion, Scan, Reflektion, Verortung und Zerlegung',
+        ' von Körpern und Objekten im Raum',
+        ' an analogen und digitalen Schnittstellen.',
+      ]),
+      p('Zahlenrhythmik mit Seife gespiegelt und in Licht zerlegt. '),
+    ],
+  }),
 
   ExhibitionWrapper({
     title: 'The Wound',
