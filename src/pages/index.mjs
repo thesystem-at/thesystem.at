@@ -2,7 +2,7 @@ export const View = state => [
   div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Yppenplatz 5' })]),
 
 
-  div({ class: 'month-title' }, 'Week one, September 2020'),
+  div({ class: 'month-title' }, 'September 2020'),
 
   ExhibitionWrapper({
     title: 'Systeme & Menschen',
@@ -58,9 +58,84 @@ export const View = state => [
       p('John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra'),
     ],
   }),
+ 
 
-  div({ class: 'month-title' }, 'week 2 - 3, September 2020 t.b.a.'),
+  ExhibitionWrapper({
+    title: 'Max Mustermann',
+    img: {
+      src: '/thesystem_NoemiKiss_MaxMustermann.jpg',
+      height: 1024,
+      width: 1017,
+    },
+    presents: {
+      artists: {
+        text: 'Noemi Kiss',
+        to: 'http://www.noemikiss.at/',
+      },
 
+      collective: 'Villa Schapira',
+      date: ['Exhibition', '09.09. - 13.09.', 'Opening', '09.09. 19:30'],
+    },
+    description: [
+      '"Ez a világ olyan világ, sokat igér, keveset ád…“',
+      ' ("Was für eine Welt ist diese Welt, die viel verspricht und wenig hält…“)',
+      ' Erfüllen, sich bewähren, durchhalten aber auch sich durchsetzen, nützlich, tüchtig, brauchbar, fähig und befähigt sein:',
+      ' Das ist unsere tägliche Beschäftigung. Immer bestehen und nicht versagen zu dürfen macht müde.',
+      ' Im Zwang uns den äußeren Erwartungen anzupassen hoffen wir darauf, dass es uns besser geht. Wir wollen uns  besser fühlen.',
+      ' Die Vielfalt um uns herum ist vielversprechend und suggeriert die Möglichkeit der freien Wahl. Doch gibt es überhaupt diese freie Wahl?',
+      ' Die Spezialisten der Macht weisen uns mit ihren Empfehlungen im Labyrinth der "freien Wahl" eine einzige Variante als Richtung vor.',
+      ' Aus deren Angaben und Anleitungen entstehen dann die Richtlinien, Vorschriften, Instruktionen und Verordnungen.',
+    ],
+  }),
+
+
+ ExhibitionWrapper({
+    title: ['fluesterkonus', br(), 'inter.aktion'],
+    img: {
+      src: '/thesystem-MariaKoller-fluesterkonus.jpg',
+      height: 1280,
+      width: 960,
+    },
+    presents: {
+      artists: 'chora malik',
+      collective: {
+        text: 'Setzkasten Wien',
+        to: 'https://setzkastenwien.at/',
+      },
+      date: ['Performance', '19.09. 19:00'],
+    },
+    description: [
+      'reflexionen isolierter stimmen einer schoenen neuen welt',
+      br(),
+      ' ganz nah',
+    ],
+  }),
+
+ ExhibitionWrapper({
+    title: ['WILLKOMMEN IN DER', br(), 'METZGEREI MOPS!'],
+    img: {
+      src: '/thesystem-zirkusmops-familieMops.jpg',
+      height: 1280,
+      width: 960,
+    },
+    presents: {
+      artists: 'Familie Mops',
+      collective: {
+        text: 'Zirkus Mops',
+        to: 'http://www.mysoundofmusic.at/',
+      },
+      date: ['Exhibition', '22.09. - 26.09.', 'Opening', '22.09. 19:00'],
+    },
+    description: [
+      'Unser Traditionshaus produziert feinste Fleisch und Wurstwaren nach eigenen Familienrezepten.',
+      ' Wir verarbeiten ausschließlich Fleisch von seltenen Wildtierarten.',
+      ' Ob saftiger Beinschinken, gut durchzogenes T-Bone Steak oder feinsten Filetspitz –',
+      ' genießen Sie exklusive Gaumenfreuden bis zum letzten Bissen.',
+      ' Eine besondere Spezialität des Hauses ist unsere berühmte Lemurenwurst,',
+      ' die schon Erzherzog Franz Joseph Karl I. Kaiser von Österreich zu schätzen wusste.',
+      ' Nur für kurze Zeit am Yppenplatz 5.',
+    ],
+  }),
 
   div({ class: 'month-title' }, 'Past Events'),
   //div({ class: 'month-title' }, 'August 2020'),
@@ -175,10 +250,21 @@ export const View = state => [
       width: 606,
     },
     presents: {
-      artists: {
-        text: 'WARBLAYDR',
-        to: 'https://soundcloud.com/ibisum/tracks',
-      },
+      artists: [
+        p(
+          Link({
+            text: 'WARBLAYDR',
+            to: 'https://soundcloud.com/ibisum/tracks',
+          }),
+        ),
+        p(span(' & ')),
+        p( 
+          Link({
+            text: 'meks',
+            to: 'https://soundcloud.com/user-945933947',
+          }),
+        ),
+      ],
       collective: 'Villa Schapira',
       type: 'Live performance',
       date: '11.08. 18:00 - 20:30',
