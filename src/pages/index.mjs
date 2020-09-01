@@ -17,7 +17,7 @@ export const View = state => [
         to: 'https://absturz.info',
       },
       collective: 'Villa Schapira',
-      date: ['Exhibition', '1.09. - 7.09.', 'Opening', '1.09. 19:30'],
+      date: ['Exhibition', '1.09. – 7.09.', 'Opening', '1.09. 19:30'],
     },
     description: [
       'Wir leben in einer Zeit in der Menschen',
@@ -74,7 +74,7 @@ export const View = state => [
       },
 
       collective: 'Villa Schapira',
-      date: ['Exhibition', '09.09. - 13.09.', 'Opening', '09.09. 19:30'],
+      date: ['Exhibition', '09.09. – 13.09.', 'Opening', '09.09. 19:30'],
     },
     description: [
       '"Ez a világ olyan világ, sokat igér, keveset ád…“',
@@ -124,7 +124,7 @@ export const View = state => [
         text: 'Zirkus Mops',
         to: 'http://www.mysoundofmusic.at/',
       },
-      date: ['Exhibition', '22.09. - 26.09.', 'Opening', '22.09. 19:00'],
+      date: ['Exhibition', '22.09. – 26.09.', 'Opening', '22.09. 19:00'],
     },
     description: [
       'Unser Traditionshaus produziert feinste Fleisch und Wurstwaren nach eigenen Familienrezepten.',
@@ -203,7 +203,7 @@ export const View = state => [
         to: 'http://www.mysoundofmusic.at/',
       },
       type: 'Installation',
-      date: ['Exhibition', '19.08. - 23.08.', 'Opening', '19.08. 19:00'],
+      date: ['Exhibition', '19.08. – 23.08.', 'Opening', '19.08. 19:00'],
     },
     description: [
       p('A wormhole into the future'),
@@ -227,7 +227,7 @@ export const View = state => [
       },
 
       collective: 'Dachsbau',
-      date: ['Exhibition', '14.08. - 17.08.', 'Opening', '14.08. 18:00'],
+      date: ['Exhibition', '14.08. – 17.08.', 'Opening', '14.08. 18:00'],
     },
     description: [
       'Series framing my work for de-colonialism. ',
@@ -267,7 +267,7 @@ export const View = state => [
       ],
       collective: 'Villa Schapira',
       type: 'Live performance',
-      date: '11.08. 18:00 - 20:30',
+      date: '11.08. 18:00 – 20:30',
     },
     description: [
       'cultivating heritage computing for the kids of the future.',
