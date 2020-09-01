@@ -58,7 +58,7 @@ export const View = state => [
       p('John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra'),
     ],
   }),
- 
+
 
   ExhibitionWrapper({
     title: 'Max Mustermann',
@@ -88,8 +88,7 @@ export const View = state => [
     ],
   }),
 
-
- ExhibitionWrapper({
+  ExhibitionWrapper({
     title: ['fluesterkonus', br(), 'inter.aktion'],
     img: {
       src: '/thesystem-MariaKoller-fluesterkonus.jpg',
@@ -111,7 +110,7 @@ export const View = state => [
     ],
   }),
 
- ExhibitionWrapper({
+  ExhibitionWrapper({
     title: ['WILLKOMMEN IN DER', br(), 'METZGEREI MOPS!'],
     img: {
       src: '/thesystem-zirkusmops-familieMops.jpg',
@@ -140,8 +139,6 @@ export const View = state => [
   div({ class: 'month-title' }, 'Past Events'),
   //div({ class: 'month-title' }, 'August 2020'),
 
-
-  
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
     img: {
@@ -241,7 +238,6 @@ export const View = state => [
     ],
   }),
 
-
   ExhibitionWrapper({
     title: 'The. System: garden',
     img: {
@@ -258,7 +254,7 @@ export const View = state => [
           }),
         ),
         p(span(' & ')),
-        p( 
+        p(
           Link({
             text: 'meks',
             to: 'https://soundcloud.com/user-945933947',
@@ -287,10 +283,12 @@ export const View = state => [
     },
     presents: {
       artists: [
-        p(Link({
-          text: 'Ms. Litto',
-          to: 'https://litto.work',
-        })),
+        p(
+          Link({
+            text: 'Ms. Litto',
+            to: 'https://litto.work',
+          }),
+        ),
         p('presents'),
         p(Link({ to: 'https://www.instagram.com/hr.litto/', text: 'Hr. Litto' })),
       ],
@@ -303,8 +301,6 @@ export const View = state => [
       ' about material properties of the human body.',
     ],
   }),
-
-
 
   div({ class: 'manifest' }, [
     h2('Manifest'),
