@@ -20,7 +20,7 @@ export const View = state => [
     },
     description: [
       'Wir leben in einer Zeit in der Menschen',
-      ' viel zu oft für die Erhaltung von Systemen arbeitet.',
+      ' viel zu oft für die Erhaltung von Systemen arbeiten.',
       ' Systeme die von Menschen erfunden wurden!',
       ' Systeme sollten eigentlich für die Menschen existieren und nicht umgekehrt.',
       ' Eine philosophische Auseinandersetzung.',
