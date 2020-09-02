@@ -8,8 +8,8 @@ export const View = state => [
     title: 'Systeme & Menschen',
     img: {
       src: '/thesystem-stizz-systemeundmenschen.jpg',
-      height: 1280,
-      width: 960,
+      height: 1200,
+      width: 900,
     },
     presents: {
       artists: {
@@ -63,9 +63,9 @@ export const View = state => [
   ExhibitionWrapper({
     title: 'Max Mustermann',
     img: {
-      src: '/thesystem_NoemiKiss_MaxMustermann.jpg',
-      height: 1024,
-      width: 1017,
+      src: '/thesystem-noemikiss-maxmustermann.jpg',
+      height: 1200,
+      width: 842,
     },
     presents: {
       artists: {
@@ -91,9 +91,9 @@ export const View = state => [
   ExhibitionWrapper({
     title: ['fluesterkonus', br(), 'inter.aktion'],
     img: {
-      src: '/thesystem-MariaKoller-fluesterkonus.jpg',
-      height: 1280,
-      width: 960,
+      src: '/thesystem-mariakoller-fluesterkonus.jpg',
+      height: 1200,
+      width: 800,
     },
     presents: {
       artists: 'chora malik',
@@ -113,9 +113,9 @@ export const View = state => [
   ExhibitionWrapper({
     title: ['WILLKOMMEN IN DER', br(), 'METZGEREI MOPS!'],
     img: {
-      src: '/thesystem-zirkusmops-familieMops.jpg',
-      height: 1280,
-      width: 960,
+      src: '/thesystem-zirkusmops-familiemops.jpg',
+      height: 640,
+      width: 718,
     },
     presents: {
       artists: 'Familie Mops',
@@ -214,8 +214,8 @@ export const View = state => [
     title: 'HeartBreakHotel',
     img: {
       src: '/thesystem-dagmarrohm-heartbreakhotel.jpg',
-      height: 1024,
-      width: 1017,
+      height: 1020,
+      width: 1013,
     },
     presents: {
       artists: {
@@ -242,8 +242,8 @@ export const View = state => [
     title: 'The. System: garden',
     img: {
       src: '/thesystem-warblaydr-garden.png',
-      height: 453,
-      width: 606,
+      height: 1362,
+      width: 1200,
     },
     presents: {
       artists: [
