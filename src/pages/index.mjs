@@ -69,7 +69,7 @@ export const View = state => [
     },
     presents: {
       artists: {
-        text: 'Noemi Kiss',
+        text: 'Noémi Kiss',
         to: 'http://www.noemikiss.at/',
       },
 
@@ -79,12 +79,53 @@ export const View = state => [
     description: [
       '"Ez a világ olyan világ, sokat igér, keveset ád…“',
       ' ("Was für eine Welt ist diese Welt, die viel verspricht und wenig hält…“)',
+      br(),
+      br(),
       ' Erfüllen, sich bewähren, durchhalten aber auch sich durchsetzen, nützlich, tüchtig, brauchbar, fähig und befähigt sein:',
       ' Das ist unsere tägliche Beschäftigung. Immer bestehen und nicht versagen zu dürfen macht müde.',
       ' Im Zwang uns den äußeren Erwartungen anzupassen hoffen wir darauf, dass es uns besser geht. Wir wollen uns  besser fühlen.',
       ' Die Vielfalt um uns herum ist vielversprechend und suggeriert die Möglichkeit der freien Wahl. Doch gibt es überhaupt diese freie Wahl?',
       ' Die Spezialisten der Macht weisen uns mit ihren Empfehlungen im Labyrinth der "freien Wahl" eine einzige Variante als Richtung vor.',
       ' Aus deren Angaben und Anleitungen entstehen dann die Richtlinien, Vorschriften, Instruktionen und Verordnungen.',
+    ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'SETZKASTEN X THE SYSTEM',
+    img: {
+      src: '/thesystem_setzkastenwien.jpg',
+      height: 1000,
+      width: 667,
+    },
+    presents: {
+      artists: [
+        p('TURBO SUPER, 2061 / Installation'),
+        p('Stefan Voglsinger'), 
+        br(),
+        p('EuLowGui, 2020 |  Video Screening'),
+        p('Patrick K.-H. & bestbefore/Andreas Karaoulanis'),
+        br(),
+        p('Guillermo Tellechea'),
+        br(),
+        p('chora malik'),
+      ],
+
+      collective: {
+        text: 'Setzkasten Wien',
+        to: 'https://setzkastenwien.at/',
+      },
+
+      date: ['Exhibition', '14.09. – 19.9.'],
+    },
+    description: [
+      'Über die Woche verteilt bespielen KünstlerInnen aus dem Umfeld des Setzkasten',
+      ' Wien die Auslage am Yppenplatz 5 mit immersiven Performances, Videoarbeiten',
+      ' und Skulpturen. The System wird zum wachsenden Labor und ist transformierende',
+      ' Installation und performativer Arbeitsraum zugleich.',
+      br(),
+
+      'das Programm wird laufend aktualisiert:',
+      p(Link({ text: 'auf Setzkasten Wien', to: 'https://setzkastenwien.at/2020/09/01/setzkasten-the-system/' })), 
     ],
   }),
 
