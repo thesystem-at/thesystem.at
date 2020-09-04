@@ -99,15 +99,15 @@ export const View = state => [
     },
     presents: {
       artists: [
-        p('TURBO SUPER, 2061 / Installation'),
         p('Stefan Voglsinger'), 
+        p('TURBO SUPER, 2061 / Installation'),
         br(),
-        p('EuLowGui, 2020 |  Video Screening'),
         p('Patrick K.-H. & bestbefore/Andreas Karaoulanis'),
+        p('EuLowGui, 2020 |  Video Screening'),
         br(),
-        p('Guillermo Tellechea'),
+        p('Guillermo Tellechea | Projektion'),
         br(),
-        p('chora malik'),
+        p('chora malik | Performance'),
       ],
 
       collective: {
