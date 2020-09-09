@@ -5,62 +5,6 @@ export const View = state => [
   div({ class: 'month-title' }, 'September 2020'),
 
   ExhibitionWrapper({
-    title: 'Systeme & Menschen',
-    img: {
-      src: '/thesystem-stizz-systemeundmenschen.jpg',
-      height: 1200,
-      width: 900,
-    },
-    presents: {
-      artists: {
-        text: 'Stefan Stürzer',
-        to: 'https://absturz.info',
-      },
-      collective: 'Villa Schapira',
-      date: ['Exhibition', '1.09. – 7.09.', 'Opening', '1.09. 19:30'],
-    },
-    description: [
-      'Wir leben in einer Zeit in der Menschen',
-      ' viel zu oft für die Erhaltung von Systemen arbeiten.',
-      ' Systeme die von Menschen erfunden wurden!',
-      ' Systeme sollten eigentlich für die Menschen existieren und nicht umgekehrt.',
-      ' Eine philosophische Auseinandersetzung.',
-    ],
-  }),
-
-  ExhibitionWrapper({
-    title: '"Work"',
-    img: {
-      src: '/thesystem-zirkusmops-work.jpg',
-      height: 1200,
-      width: 1028,
-    },
-    presents: {
-      artists: [
-        [p(Link({ text: 'Marco Otoya', to: 'https://culturaespiral.com/marco-otoya/' }))],
-        [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
-        [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
-      ],
-
-      collective: 'Villa Schapira',
-      date: ['Opening Performance', '3.09 19:00', 'Rauminstallation', '3.09 – 7.09'],
-    },
-    description: [
-      'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
-      'Automatismus generiert, die aber notwendig in unserem Leben ist. Wie kann uns die ',
-      'Angst vor einem Risiko und vor einer Änderung paralysieren? Kann die Routine uns in ',
-      'ein Möbelstück verwandeln? Ist die Routine etwas positives oder nicht, oder aber ',
-      'könnten wir die Routine ändern oder transformieren? Oder besser nicht?',
-      br(),
-      br(),
-
-      p('Musik: Nyman: Double Concerto For Saxophone & Cello - Mvt.5'),
-      p('John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra'),
-    ],
-  }),
-
-
-  ExhibitionWrapper({
     title: 'Max Mustermann',
     img: {
       src: '/thesystem-noemikiss-maxmustermann.jpg',
@@ -99,7 +43,7 @@ export const View = state => [
     },
     presents: {
       artists: [
-        p('Stefan Voglsinger'), 
+        p('Stefan Voglsinger'),
         p('TURBO SUPER, 2061 / Installation'),
         br(),
         p('Patrick K.-H. & bestbefore/Andreas Karaoulanis'),
@@ -125,7 +69,7 @@ export const View = state => [
       br(),
 
       'das Programm wird laufend aktualisiert:',
-      p(Link({ text: 'auf Setzkasten Wien', to: 'https://setzkastenwien.at/2020/09/01/setzkasten-the-system/' })), 
+      p(Link({ text: 'auf Setzkasten Wien', to: 'https://setzkastenwien.at/2020/09/01/setzkasten-the-system/' })),
     ],
   }),
 
@@ -179,6 +123,61 @@ export const View = state => [
 
   div({ class: 'month-title' }, 'Past Events'),
   //div({ class: 'month-title' }, 'August 2020'),
+
+  ExhibitionWrapper({
+    title: '"Work"',
+    img: {
+      src: '/thesystem-zirkusmops-work.jpg',
+      height: 1200,
+      width: 1028,
+    },
+    presents: {
+      artists: [
+        [p(Link({ text: 'Marco Otoya', to: 'https://culturaespiral.com/marco-otoya/' }))],
+        [p(Link({ text: 'Adam Lebesmühlbacher', to: 'http://www.mysoundofmusic.at/' }))],
+        [p(Link({ text: 'Sebastian Schmid', to: 'https://zirkusabnormal.at/' }))],
+      ],
+
+      collective: 'Villa Schapira',
+      date: ['Opening Performance', '3.09 19:00', 'Rauminstallation', '3.09 – 7.09'],
+    },
+    description: [
+      'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
+      'Automatismus generiert, die aber notwendig in unserem Leben ist. Wie kann uns die ',
+      'Angst vor einem Risiko und vor einer Änderung paralysieren? Kann die Routine uns in ',
+      'ein Möbelstück verwandeln? Ist die Routine etwas positives oder nicht, oder aber ',
+      'könnten wir die Routine ändern oder transformieren? Oder besser nicht?',
+      br(),
+      br(),
+
+      p('Musik: Nyman: Double Concerto For Saxophone & Cello - Mvt.5'),
+      p('John Harle, Julian Lloyd Webber, Michael Nyman: Philharmonia Orchestra'),
+    ],
+  }),
+
+  ExhibitionWrapper({
+    title: 'Systeme & Menschen',
+    img: {
+      src: '/thesystem-stizz-systemeundmenschen.jpg',
+      height: 1200,
+      width: 900,
+    },
+    presents: {
+      artists: {
+        text: 'Stefan Stürzer',
+        to: 'https://absturz.info',
+      },
+      collective: 'Villa Schapira',
+      date: ['Exhibition', '1.09. – 7.09.', 'Opening', '1.09. 19:30'],
+    },
+    description: [
+      'Wir leben in einer Zeit in der Menschen',
+      ' viel zu oft für die Erhaltung von Systemen arbeiten.',
+      ' Systeme die von Menschen erfunden wurden!',
+      ' Systeme sollten eigentlich für die Menschen existieren und nicht umgekehrt.',
+      ' Eine philosophische Auseinandersetzung.',
+    ],
+  }),
 
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
