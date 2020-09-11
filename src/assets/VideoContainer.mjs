@@ -3,7 +3,8 @@ export const View = url =>
     //Img({ src: '/liveStream.png', height: 388, width: 621 }),
     // Litto : VideoEmbed({ src: 'Dy36d_cNQq4' }),
     // Dagmar VideoEmbed({ src: 'qwLkYQc8Pn0' }),
-    VideoEmbed({ src: 'OviYhQ_Lo2Y' }),
+    // Selina VideoEmbed({ src: 'OviYhQ_Lo2Y' }),
+    VideoEmbed({ src: 'eERg-H03cvY' }),
   ])
 
 export const style = vars => ({
