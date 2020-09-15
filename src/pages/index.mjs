@@ -1,38 +1,7 @@
 export const View = state => [
   div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Yppenplatz 5' })]),
 
-
   div({ class: 'month-title' }, 'September 2020'),
-
-  ExhibitionWrapper({
-    title: 'Max Mustermann',
-    img: {
-      src: '/thesystem-noemikiss-maxmustermann.jpg',
-      height: 1200,
-      width: 842,
-    },
-    presents: {
-      artists: {
-        text: 'Noémi Kiss',
-        to: 'http://www.noemikiss.at/',
-      },
-
-      collective: 'Villa Schapira',
-      date: ['Exhibition', '09.09. – 13.09.', 'Opening', '09.09. 19:30'],
-    },
-    description: [
-      '"Ez a világ olyan világ, sokat igér, keveset ád…“',
-      ' ("Was für eine Welt ist diese Welt, die viel verspricht und wenig hält…“)',
-      br(),
-      br(),
-      ' Erfüllen, sich bewähren, durchhalten aber auch sich durchsetzen, nützlich, tüchtig, brauchbar, fähig und befähigt sein:',
-      ' Das ist unsere tägliche Beschäftigung. Immer bestehen und nicht versagen zu dürfen macht müde.',
-      ' Im Zwang uns den äußeren Erwartungen anzupassen hoffen wir darauf, dass es uns besser geht. Wir wollen uns  besser fühlen.',
-      ' Die Vielfalt um uns herum ist vielversprechend und suggeriert die Möglichkeit der freien Wahl. Doch gibt es überhaupt diese freie Wahl?',
-      ' Die Spezialisten der Macht weisen uns mit ihren Empfehlungen im Labyrinth der "freien Wahl" eine einzige Variante als Richtung vor.',
-      ' Aus deren Angaben und Anleitungen entstehen dann die Richtlinien, Vorschriften, Instruktionen und Verordnungen.',
-    ],
-  }),
 
   ExhibitionWrapper({
     title: 'SETZKASTEN X THE SYSTEM',
@@ -69,7 +38,12 @@ export const View = state => [
       br(),
 
       'das Programm wird laufend aktualisiert:',
-      p(Link({ text: 'auf Setzkasten Wien', to: 'https://setzkastenwien.at/2020/09/01/setzkasten-the-system/' })),
+      p(
+        Link({
+          text: 'auf Setzkasten Wien',
+          to: 'https://setzkastenwien.at/2020/09/01/setzkasten-the-system/',
+        }),
+      ),
     ],
   }),
 
@@ -88,11 +62,7 @@ export const View = state => [
       },
       date: ['Performance', '19.09. 19:00'],
     },
-    description: [
-      'reflexionen isolierter stimmen einer schoenen neuen welt',
-      br(),
-      ' ganz nah',
-    ],
+    description: ['reflexionen isolierter stimmen einer schoenen neuen welt', br(), ' ganz nah'],
   }),
 
   ExhibitionWrapper({
@@ -123,6 +93,36 @@ export const View = state => [
 
   div({ class: 'month-title' }, 'Past Events'),
   //div({ class: 'month-title' }, 'August 2020'),
+
+  ExhibitionWrapper({
+    title: 'Max Mustermann',
+    img: {
+      src: '/thesystem-noemikiss-maxmustermann.jpg',
+      height: 1200,
+      width: 842,
+    },
+    presents: {
+      artists: {
+        text: 'Noémi Kiss',
+        to: 'http://www.noemikiss.at/',
+      },
+
+      collective: 'Villa Schapira',
+      date: ['Exhibition', '09.09. – 13.09.', 'Opening', '09.09. 19:30'],
+    },
+    description: [
+      '"Ez a világ olyan világ, sokat igér, keveset ád…“',
+      ' ("Was für eine Welt ist diese Welt, die viel verspricht und wenig hält…“)',
+      br(),
+      br(),
+      ' Erfüllen, sich bewähren, durchhalten aber auch sich durchsetzen, nützlich, tüchtig, brauchbar, fähig und befähigt sein:',
+      ' Das ist unsere tägliche Beschäftigung. Immer bestehen und nicht versagen zu dürfen macht müde.',
+      ' Im Zwang uns den äußeren Erwartungen anzupassen hoffen wir darauf, dass es uns besser geht. Wir wollen uns  besser fühlen.',
+      ' Die Vielfalt um uns herum ist vielversprechend und suggeriert die Möglichkeit der freien Wahl. Doch gibt es überhaupt diese freie Wahl?',
+      ' Die Spezialisten der Macht weisen uns mit ihren Empfehlungen im Labyrinth der "freien Wahl" eine einzige Variante als Richtung vor.',
+      ' Aus deren Angaben und Anleitungen entstehen dann die Richtlinien, Vorschriften, Instruktionen und Verordnungen.',
+    ],
+  }),
 
   ExhibitionWrapper({
     title: '"Work"',
