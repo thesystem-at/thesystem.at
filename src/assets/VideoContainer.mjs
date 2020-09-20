@@ -2,11 +2,10 @@ export const View = url =>
   div({ class: 'VideoContainer' }, [
     //Img({ src: '/liveStream.png', height: 388, width: 621 }),
     // VideoEmbed({ src: 'Dy36d_cNQq4' }), // litto
-    // VideoEmbed({ src: 'qwLkYQc8Pn0' }), // dagmar 
+    // VideoEmbed({ src: 'qwLkYQc8Pn0' }), // dagmar
     // VideoEmbed({ src: 'OviYhQ_Lo2Y' }), // selina
     // VideoEmbed({ src: 'eERg-H03cvY' }), // sandkasten
-    VideoEmbed({ src: 'tzPXBR5AYJs' }), // work 
-
+    VideoEmbed({ src: 'tzPXBR5AYJs' }), // work
   ])
 
 export const style = vars => ({

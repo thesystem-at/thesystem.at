@@ -32,7 +32,7 @@ export const View = state => [
   div({ class: 'month-title' }, 'Past Events'),
   //div({ class: 'month-title' }, 'August 2020'),
 
-    ExhibitionWrapper({
+  ExhibitionWrapper({
     title: 'SETZKASTEN X THE SYSTEM',
     img: {
       src: '/thesystem_setzkastenwien.jpg',
@@ -92,10 +92,10 @@ export const View = state => [
       date: ['Performance', '19.09. 19:00'],
     },
     description: [
-      'reflexionen isolierter stimmen einer schönen neuen welt', 
-      br(), 
+      'reflexionen isolierter stimmen einer schönen neuen welt',
+      br(),
       ' ganz nah',
-      p({ title: 'Supported by Kultur Ottakring' }, [
+      p({ class: 'subcredits', title: 'Supported by Kultur Ottakring' }, [
         Img('/social/ottakring-kultur.jpg'),
         Img('/social/ottakring-wappen.jpg'),
       ]),
