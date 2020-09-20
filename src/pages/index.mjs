@@ -4,6 +4,35 @@ export const View = state => [
   div({ class: 'month-title' }, 'September 2020'),
 
   ExhibitionWrapper({
+    title: ['WILLKOMMEN IN DER', br(), 'METZGEREI MOPS!'],
+    img: {
+      src: '/thesystem-zirkusmops-familiemops.jpg',
+      height: 640,
+      width: 718,
+    },
+    presents: {
+      artists: 'Familie Mops',
+      collective: {
+        text: 'Zirkus Mops',
+        to: 'http://www.mysoundofmusic.at/',
+      },
+      date: ['Exhibition', '22.09. – 26.09.', 'Opening', '22.09. 19:00'],
+    },
+    description: [
+      'Unser Traditionshaus produziert feinste Fleisch und Wurstwaren nach eigenen Familienrezepten.',
+      ' Wir verarbeiten ausschließlich Fleisch von seltenen Wildtierarten.',
+      ' Ob saftiger Beinschinken, gut durchzogenes T-Bone Steak oder feinsten Filetspitz –',
+      ' genießen Sie exklusive Gaumenfreuden bis zum letzten Bissen.',
+      ' Eine besondere Spezialität des Hauses ist unsere berühmte Lemurenwurst,',
+      ' die schon Erzherzog Franz Joseph Karl I. Kaiser von Österreich zu schätzen wusste.',
+      ' Nur für kurze Zeit am Yppenplatz 5.',
+    ],
+  }),
+
+  div({ class: 'month-title' }, 'Past Events'),
+  //div({ class: 'month-title' }, 'August 2020'),
+
+    ExhibitionWrapper({
     title: 'SETZKASTEN X THE SYSTEM',
     img: {
       src: '/thesystem_setzkastenwien.jpg',
@@ -62,37 +91,16 @@ export const View = state => [
       },
       date: ['Performance', '19.09. 19:00'],
     },
-    description: ['reflexionen isolierter stimmen einer schoenen neuen welt', br(), ' ganz nah'],
-  }),
-
-  ExhibitionWrapper({
-    title: ['WILLKOMMEN IN DER', br(), 'METZGEREI MOPS!'],
-    img: {
-      src: '/thesystem-zirkusmops-familiemops.jpg',
-      height: 640,
-      width: 718,
-    },
-    presents: {
-      artists: 'Familie Mops',
-      collective: {
-        text: 'Zirkus Mops',
-        to: 'http://www.mysoundofmusic.at/',
-      },
-      date: ['Exhibition', '22.09. – 26.09.', 'Opening', '22.09. 19:00'],
-    },
     description: [
-      'Unser Traditionshaus produziert feinste Fleisch und Wurstwaren nach eigenen Familienrezepten.',
-      ' Wir verarbeiten ausschließlich Fleisch von seltenen Wildtierarten.',
-      ' Ob saftiger Beinschinken, gut durchzogenes T-Bone Steak oder feinsten Filetspitz –',
-      ' genießen Sie exklusive Gaumenfreuden bis zum letzten Bissen.',
-      ' Eine besondere Spezialität des Hauses ist unsere berühmte Lemurenwurst,',
-      ' die schon Erzherzog Franz Joseph Karl I. Kaiser von Österreich zu schätzen wusste.',
-      ' Nur für kurze Zeit am Yppenplatz 5.',
+      'reflexionen isolierter stimmen einer schönen neuen welt', 
+      br(), 
+      ' ganz nah',
+      p({ title: 'Supported by Kultur Ottakring' }, [
+        Img('/social/ottakring-kultur.jpg'),
+        Img('/social/ottakring-wappen.jpg'),
+      ]),
     ],
   }),
-
-  div({ class: 'month-title' }, 'Past Events'),
-  //div({ class: 'month-title' }, 'August 2020'),
 
   ExhibitionWrapper({
     title: 'Max Mustermann',
