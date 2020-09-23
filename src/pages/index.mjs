@@ -16,7 +16,7 @@ export const View = state => [
         text: 'Zirkus Mops',
         to: 'http://www.mysoundofmusic.at/',
       },
-      date: ['Exhibition', '22.09. – 26.09.', 'Opening', '22.09. 19:00'],
+      date: ['Exhibition', '22.09. – 30.09.', 'Opening', '22.09. 19:00'],
     },
     description: [
       'Unser Traditionshaus produziert feinste Fleisch und Wurstwaren nach eigenen Familienrezepten.',
@@ -147,7 +147,7 @@ export const View = state => [
       ],
 
       collective: 'Villa Schapira',
-      date: ['Opening Performance', '3.09 19:00', 'Rauminstallation', '3.09 – 7.09'],
+      date: ['Opening Performance', '3.09. 19:00', 'Rauminstallation', '3.09. – 7.09.'],
     },
     description: [
       'Die Routine, die sich wiederholt, die Monotonie, die im Leben und in der Arbeit ',
