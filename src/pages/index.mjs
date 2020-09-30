@@ -21,7 +21,7 @@ export const View = state => [
     description: [
       'Unser Traditionshaus produziert feinste Fleisch und Wurstwaren nach eigenen Familienrezepten.',
       ' Wir verarbeiten ausschließlich Fleisch von seltenen Wildtierarten.',
-      ' Ob saftiger Beinschinken, gut durchzogenes T-Bone Steak oder feinsten Filetspitz –',
+      ' Ob saftigen Beinschinken, gut durchzogenes T-Bone Steak oder feinsten Filetspitz –',
       ' genießen Sie exklusive Gaumenfreuden bis zum letzten Bissen.',
       ' Eine besondere Spezialität des Hauses ist unsere berühmte Lemurenwurst,',
       ' die schon Erzherzog Franz Joseph Karl I. Kaiser von Österreich zu schätzen wusste.',
