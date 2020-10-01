@@ -65,10 +65,7 @@ export const View = () =>
         to: 'https://www.facebook.com/sandkastensyndikat/',
       },
 
-      date: [
-        'Exhibition',
-        '26.08. – 30.08.2020',
-      ],
+      date: ['Exhibition', '26.08. – 30.08.2020'],
     },
     description: [
       p([
@@ -80,7 +77,6 @@ export const View = () =>
     ],
 
     video: 'eERg-H03cvY',
-
 
     photographer: 'Sandkasten Syndikat & TheSystemCollective',
   })

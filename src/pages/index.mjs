@@ -75,7 +75,10 @@ export const View = state => [
     ]),
 
     h5([
-      p(['Concept and Organisation: ', Link({ text: 'Litto / Daniela Weiss', to: 'https://litto.work' })]),
+      p([
+        'Concept and Organisation: ',
+        Link({ text: 'Litto / Daniela Weiss', to: 'https://litto.work' }),
+      ]),
       p(['Development: ', Link({ text: 'Jascha Ehrenreich', to: 'https://jaeh.at' })]),
     ]),
   ]),

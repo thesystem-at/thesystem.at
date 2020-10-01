@@ -1,4 +1,12 @@
-export const View = ({ img, description, exhibitionImages = false, video = false, title, presents, photographer = false }) =>
+export const View = ({
+  img,
+  description,
+  exhibitionImages = false,
+  video = false,
+  title,
+  presents,
+  photographer = false,
+}) =>
   div({ class: 'ExhibitionWrapper' }, [
     div({ class: 'Dots' }, [Polkadot(), PreviewImage(img)]),
 
@@ -9,14 +17,11 @@ export const View = ({ img, description, exhibitionImages = false, video = false
     ]),
 
     exhibitionImages &&
-    exhibitionImages.length &&
-    div(
-      { class: 'imageWrapper' },
-      [
+      exhibitionImages.length &&
+      div({ class: 'imageWrapper' }, [
         ...exhibitionImages.map(i => Img(i)),
         video && VideoEmbed(video),
-      ],
-    ),
+      ]),
     photographer && div({ class: 'photographer' }, div(['Photos / Video: ', photographer])),
   ])
 
