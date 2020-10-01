@@ -14,7 +14,7 @@ export const View = () =>
       ],
 
       collective: 'Villa Schapira',
-      date: ['Opening Performance', '3.09. 19:00', 'Rauminstallation', '3.09. – 7.09.'],
+      date: ['Exhibition', '3.09. – 7.09.2020'],
     },
 
     exhibitionImages: [

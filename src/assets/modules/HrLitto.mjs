@@ -48,7 +48,7 @@ export const View = () =>
       ],
       collective: 'Villa Schapira',
 
-      date: '11.08. 21:00 – 22:00',
+      date: ['Performance', '11.08.2020'],
     },
     description: [
       'An AI, sourced from a drawing, tells us what it learned',

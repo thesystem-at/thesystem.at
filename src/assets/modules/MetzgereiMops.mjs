@@ -57,7 +57,7 @@ export const View = () =>
         text: 'Zirkus Mops',
         to: 'http://www.mysoundofmusic.at/',
       },
-      date: '22.09. – ????',
+      date: ['Exhibition', '22.09. – 14.10.2020'],
     },
 
     description: [

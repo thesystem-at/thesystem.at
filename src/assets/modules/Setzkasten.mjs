@@ -58,22 +58,13 @@ export const View = () =>
         to: 'https://setzkastenwien.at/',
       },
 
-      date: ['Exhibition', '14.09. – 19.9.'],
+      date: ['Performances', '14.09. – 19.9.2020'],
     },
     description: [
       'Über die Woche verteilt bespielen KünstlerInnen aus dem Umfeld des Setzkasten',
       ' Wien die Auslage am Yppenplatz 5 mit immersiven Performances, Videoarbeiten',
       ' und Skulpturen. TheSystem wird zum wachsenden Labor und ist transformierende',
       ' Installation und performativer Arbeitsraum zugleich.',
-      br(),
-
-      'das Programm wird laufend aktualisiert:',
-      p(
-        Link({
-          text: 'auf Setzkasten Wien',
-          to: 'https://setzkastenwien.at/2020/09/01/setzkasten-the-system/',
-        }),
-      ),
     ],
 
     photographer: 'TheSystemCollective',

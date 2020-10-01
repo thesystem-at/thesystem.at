@@ -29,7 +29,7 @@ export const View = () =>
         text: 'Setzkasten Wien',
         to: 'https://setzkastenwien.at/',
       },
-      date: ['Performance', '19.09. 19:00'],
+      date: ['Performance', '19.09.2020'],
     },
     description: [
       'reflexionen isolierter stimmen einer schönen neuen welt',

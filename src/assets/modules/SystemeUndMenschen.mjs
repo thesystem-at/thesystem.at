@@ -30,7 +30,7 @@ export const View = () =>
         to: 'https://absturz.info',
       },
       collective: 'Villa Schapira',
-      date: ['Exhibition', '1.09. – 7.09.', 'Opening', '1.09. 19:30'],
+      date: ['Exhibition', '1.09. – 7.09.2020'],
     },
     description: [
       'Wir leben in einer Zeit in der Menschen',

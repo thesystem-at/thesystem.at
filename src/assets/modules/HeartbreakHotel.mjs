@@ -32,7 +32,7 @@ export const View = () =>
       },
 
       collective: 'Dachsbau',
-      date: '14.08. – 17.08.',
+      date: ['Exhibition', '14.08. – 17.08.2020'],
     },
     description: [
       'Series framing my work for de-colonialism. ',

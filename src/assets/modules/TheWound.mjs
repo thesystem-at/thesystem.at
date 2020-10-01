@@ -47,7 +47,7 @@ export const View = () =>
         to: 'http://www.mysoundofmusic.at/',
       },
       type: 'Installation',
-      date: '19.08. – 23.08.',
+      date: '19.08. – 23.08.2020',
     },
     description: [
       p('A wormhole into the future'),

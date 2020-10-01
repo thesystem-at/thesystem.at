@@ -37,8 +37,7 @@ export const View = () =>
         ),
       ],
       collective: 'Villa Schapira',
-      type: 'Live performance',
-      date: '11.08. 18:00 – 20:30',
+      date: ['Performance', '11.08.2020'],
     },
     description: [
       'cultivating heritage computing for the kids of the future. ',

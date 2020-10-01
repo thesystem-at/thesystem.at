@@ -67,7 +67,7 @@ export const View = () =>
 
       date: [
         'Exhibition',
-        '26.08. – 30.08.',
+        '26.08. – 30.08.2020',
       ],
     },
     description: [
