@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: ['fluesterkonus', br(), 'inter.aktion'],
+    id: 'fluesterkonus',
     img: {
       src: '/thesystem-mariakoller-fluesterkonus.jpg',
       height: 1200,

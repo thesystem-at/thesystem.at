@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'The Wound',
+    id: 'thewound',
     img: {
       src: '/thesystem-selinanowak-thewound.jpg',
       height: 1200,

@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: ['WILLKOMMEN IN DER', br(), 'METZGEREI MOPS!'],
+    id: 'metzgereimops',
     img: {
       src: '/thesystem-zirkusmops-familiemops.jpg',
       height: 640,

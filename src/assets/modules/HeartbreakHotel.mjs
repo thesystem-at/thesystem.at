@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'HeartBreakHotel',
+    id: 'heartbreakhotel',
     img: {
       src: '/thesystem-dagmarrohm-heartbreakhotel.jpg',
       height: 1020,

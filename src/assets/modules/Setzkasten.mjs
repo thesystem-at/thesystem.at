@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'SETZKASTEN X TheSystem',
+    id: 'setzkasten',
     img: {
       src: '/thesystem_setzkastenwien.jpg',
       height: 1000,

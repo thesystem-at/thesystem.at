@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'Max Mustermann',
+    id: 'maxmustermann',
     img: {
       src: '/thesystem-noemikiss-maxmustermann.jpg',
       height: 1200,

@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'System, Struktur & DeFragmentierung',
+    id: 'system-struktur-defragmentierung',
     img: {
       src: '/thesystem-sandkasten-syndikat.jpg',
       height: 1380,

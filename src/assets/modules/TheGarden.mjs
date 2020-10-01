@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'TheSystem: garden',
+    id: 'thegarden',
     img: {
       src: '/thesystem-thegarden.jpg',
       height: 676,

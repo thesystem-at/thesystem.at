@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: '"Work"',
+    id: 'work',
     img: {
       src: '/thesystem-zirkusmops-work.jpg',
       height: 1200,

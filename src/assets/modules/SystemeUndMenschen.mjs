@@ -1,6 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
     title: 'Systeme & Menschen',
+    id: 'systeme-und-menschen',
     img: {
       src: '/thesystem-stizz-systemeundmenschen.jpg',
       height: 1200,
