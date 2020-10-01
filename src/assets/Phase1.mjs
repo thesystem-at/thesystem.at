@@ -2,7 +2,6 @@ export const View = () =>
   div(
     { class: 'Phase1' },
     div([
-
       div({ class: 'address' }, [
         h2('Phase.1: Source'),
         p('Yppenplatz 5'),
@@ -11,7 +10,7 @@ export const View = () =>
       ]),
 
       Img({ src: '/auslage.jpg', height: '709', width: '1200' }),
-    ])
+    ]),
   )
 
 export const style = vars => ({
@@ -34,7 +33,6 @@ export const style = vars => ({
   },
 
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
-
     '.address': {
       float: 'left',
       width: '40%',
@@ -44,5 +42,5 @@ export const style = vars => ({
       float: 'right',
       width: '60%',
     },
-  }
+  },
 })
