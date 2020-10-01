@@ -6,8 +6,9 @@ export const View = ({
   title,
   presents,
   photographer = false,
+  id = '',
 }) =>
-  div({ class: 'ExhibitionWrapper' }, [
+  div({ class: 'ExhibitionWrapper', id }, [
     div({ class: 'Dots' }, [Polkadot(), PreviewImage(img)]),
 
     div({ class: 'sections' }, [
