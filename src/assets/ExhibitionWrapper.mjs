@@ -1,7 +1,7 @@
 export const View = ({
   img,
   description,
-  exhibitionImages = false,
+  exhibitionImages = [],
   video = false,
   title,
   presents,
@@ -17,12 +17,12 @@ export const View = ({
       section({ class: 'description' }, description),
     ]),
 
-    exhibitionImages &&
-      exhibitionImages.length &&
+    exhibitionImages.length &&
       div({ class: 'imageWrapper' }, [
         ...exhibitionImages.map(i => Img(i)),
         video && VideoEmbed(video),
       ]),
+
     photographer && div({ class: 'photographer' }, div(['Photos / Video: ', photographer])),
   ])
 
