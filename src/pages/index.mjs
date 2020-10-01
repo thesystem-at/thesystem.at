@@ -20,8 +20,12 @@ export const View = state => [
       b('manifest'),
       ', using technology to make gps-anchored art accessible to everyone, both at home and abroad.',
     ]),
-  ]),
 
+    p([
+      'Involved collectives:',
+      ' Dachsbau, Sandkasten Syndikat, Setzkasten Wien, Zirkus Mops, Villa Schapira.',
+    ]),
+  ]),
 
   div({ class: 'month-title' }, 'Current exhibition'),
   MetzgereiMops(),
@@ -40,11 +44,6 @@ export const View = state => [
   TheGarden(),
 
   div({ class: 'manifest' }, [
-    p([
-      'Involved collectives:',
-      ' Dachsbau, Sandkasten Syndikat, Setzkasten Wien, Zirkus Mops, Villa Schapira.',
-    ]),
-
     h3('Phase.1 - Manifestation in physical space'),
 
     p([
