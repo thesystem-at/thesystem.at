@@ -26,16 +26,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thesystem-at/thesystem.at.git"
+    "url": "git+https://github.com/thesystemcollective/thesystem.at.git"
   },
   "bugs": {
-    "url": "https://github.com/thesystem-at/thesystem.at/issues"
+    "url": "https://github.com/thesystemcollective/thesystem.at/issues"
   },
   "dependencies": {
     "@magic-modules/no-spy": "0.0.5",
     "@magic-modules/video-embed": "0.0.4",
     "@magic/core": "0.0.89",
-    "@thesystem-at/magic-theme": "github:thesystem-at/magic-theme"
+    "@thesystemcollective/magic-theme": "github:thesystemcollective/magic-theme"
   },
   "devDependencies": {
     "@magic/format": "0.0.14",
