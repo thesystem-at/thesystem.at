@@ -17,11 +17,11 @@ export const View = ({
     ]),
 
     exhibitionImages &&
-      exhibitionImages.length &&
-      div({ class: 'imageWrapper' }, [
-        ...exhibitionImages.map(i => Img(i)),
-        video && VideoEmbed(video),
-      ]),
+    exhibitionImages.length &&
+    div({ class: 'imageWrapper' }, [
+      ...exhibitionImages.map(i => Img(i)),
+      video && VideoEmbed(video),
+    ]),
     photographer && div({ class: 'photographer' }, div(['Photos / Video: ', photographer])),
   ])
 
@@ -116,9 +116,6 @@ export const style = vars => ({
         '&:nth-child(even)': {
           float: 'left',
         },
-      },
-      '.ytp-cued-thumbnail-overlay-image': {
-        width: '101%',
       },
     },
 
