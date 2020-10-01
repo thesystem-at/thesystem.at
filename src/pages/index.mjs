@@ -27,6 +27,8 @@ export const View = state => [
     ]),
   ]),
 
+  Phase1(),
+
   div({ class: 'month-title' }, 'Current exhibition'),
   MetzgereiMops(),
 
