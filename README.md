@@ -50,9 +50,11 @@ cd ./thesystem.at
 * #### npm run build
   creates production build in public directory
 
-* #### npm start
-  start the development server on localhost:2323
+* #### npm run dev
+  start the development server in development mode
 
+* #### npm run prod
+  start the development server in production mode
 
 #### workflow for changing content:
 
