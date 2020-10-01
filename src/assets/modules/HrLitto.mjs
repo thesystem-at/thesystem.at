@@ -1,6 +1,6 @@
 export const View = () =>
   ExhibitionWrapper({
-    title: 'No hair…',
+    title: 'Hr. Litto',
     img: {
       src: '/thesystem-litto-thebody.jpg',
       height: 900,
