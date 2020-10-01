@@ -5,7 +5,8 @@ export const View = url =>
     // VideoEmbed({ src: 'qwLkYQc8Pn0' }), // dagmar
     // VideoEmbed({ src: 'OviYhQ_Lo2Y' }), // selina
     // VideoEmbed({ src: 'eERg-H03cvY' }), // sandkasten
-    VideoEmbed({ src: 'tzPXBR5AYJs' }), // work
+    // VideoEmbed({ src: 'tzPXBR5AYJs' }), // work
+    VideoEmbed({ src: 'd-cfixGDwNQ' }), // demo video
   ])
 
 export const style = vars => ({
