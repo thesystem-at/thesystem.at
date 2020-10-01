@@ -1,13 +1,23 @@
-export const View = props =>
+export const View = ({ img, description, exhibitionImages = false, video = false, title, presents, photographer = false }) =>
   div({ class: 'ExhibitionWrapper' }, [
-    div({ class: 'Dots' }, [Polkadot(), PreviewImage(props.img)]),
+    div({ class: 'Dots' }, [Polkadot(), PreviewImage(img)]),
 
     div({ class: 'sections' }, [
-      h2(props.title),
-      Presents(props.presents),
-      // props.date && Location(props.date),
-      section({ class: 'description' }, props.description),
+      h2(title),
+      Presents(presents),
+      section({ class: 'description' }, description),
     ]),
+
+    exhibitionImages &&
+    exhibitionImages.length &&
+    div(
+      { class: 'imageWrapper' },
+      [
+        ...exhibitionImages.map(i => Img(i)),
+        video && VideoEmbed(video),
+      ],
+    ),
+    photographer && div({ class: 'photographer' }, div(['Photos / Video: ', photographer])),
   ])
 
 export const style = vars => ({
@@ -25,6 +35,40 @@ export const style = vars => ({
     whiteSpace: 'inherit',
   },
 
+  '.imageWrapper': {
+    clear: 'both',
+
+    img: {
+      margin: '80px 5vw 0',
+      width: '90vw',
+      height: 'auto',
+    },
+  },
+
+  '.photographer': {
+    fontSize: '0.8em',
+    width: '100%',
+    float: 'left',
+    margin: '1em 0 0 0',
+
+    '> div': {
+      maxWidth: '1800px',
+      width: '100%',
+      margin: '0 auto',
+      padding: '0 0 0 10vw',
+    },
+  },
+
+  '.VideoEmbed': {
+    height: '56vw',
+    width: '100vw',
+    top: 0,
+    right: 0,
+    clear: 'both',
+    margin: '80px 0 40px',
+    padding: 0,
+  },
+
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
     clear: 'none',
 
@@ -39,6 +83,38 @@ export const style = vars => ({
     img: {
       margin: '1vw 0 0',
       float: 'left',
+    },
+
+    '.imageWrapper': {
+      width: '100%',
+      maxWidth: '1800px',
+      margin: '0 auto',
+
+      img: {
+        float: 'right',
+        clear: 'both',
+        width: '55%',
+        marginLeft: '10vw',
+        marginRight: '10vw',
+
+        '&:nth-child(even)': {
+          float: 'left',
+        },
+      },
+      '.VideoEmbed': {
+        float: 'right',
+        '&:nth-child(even)': {
+          float: 'left',
+        },
+      },
+      '.ytp-cued-thumbnail-overlay-image': {
+        width: '101%',
+      },
+    },
+
+    '.VideoEmbed': {
+      height: '45vw',
+      width: '80vw',
     },
   },
 })
