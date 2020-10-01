@@ -35,6 +35,11 @@ export const style = vars => ({
     whiteSpace: 'inherit',
   },
 
+  h2: {
+    textTransform: 'uppercase',
+    fontSize: '1.5em',
+  },
+
   '.imageWrapper': {
     clear: 'both',
 
