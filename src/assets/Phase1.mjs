@@ -14,8 +14,7 @@ export const View = () =>
   )
 
 export const style = vars => ({
-  width: '70vw',
-  margin: '0 auto',
+  margin: '0 1em 3em',
 
   '> div': {
     display: 'inline-block',
@@ -23,6 +22,10 @@ export const style = vars => ({
 
   h2: {
     paddingTop: 0,
+  },
+
+  '.address': {
+    margin: '0 0 1em',
   },
 
   img: {
@@ -33,14 +36,16 @@ export const style = vars => ({
   },
 
   [`@media screen and (min-width: ${vars.widths.laptop})`]: {
+    width: '70vw',
+    margin: '0 auto 3em',
+
     '.address': {
       float: 'left',
-      width: '40%',
-      minWidth: '300px',
+      width: '34vw',
     },
     img: {
       float: 'right',
-      width: '60%',
+      width: '35vw',
     },
   },
 })
