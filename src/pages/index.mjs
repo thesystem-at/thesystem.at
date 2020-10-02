@@ -72,7 +72,7 @@ export const View = state => [
       ' allowing artists to bridge the chasm between their art and the evolving digitized world around them.',
     ]),
     p([
-      'The Artificial Museum is connected to the real world through a web-based augmented reality application -',
+      'The Artificial Museum is connected to the real world through a web-based augmented reality application - ',
       Link({ to: 'https://thesystem.at', text: 'thesystem.at' }),
     ]),
 
