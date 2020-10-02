@@ -23,7 +23,8 @@ export const View = ({
         video && VideoEmbed(video),
       ]),
 
-    photographer && div({ class: 'photographer' }, div(['Photos / Video: ', photographer])),
+    photographer &&
+      div({ class: 'photographer' }, div(['Photos', video && ' / Video', ': ', photographer])),
   ])
 
 export const style = vars => ({
