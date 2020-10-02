@@ -73,7 +73,7 @@ export const View = state => [
     ]),
     p([
       'The Artificial Museum is connected to the real world through a web-based augmented reality application - ',
-      Link({ to: 'https://thesystem.at', text: 'thesystem.at' }),
+      Link({ to: 'https://thesystem.at', text: 'TheSystem.at' }),
     ]),
 
     h5([
