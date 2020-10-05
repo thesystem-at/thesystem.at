@@ -1,7 +1,7 @@
 export const View = () =>
   ExhibitionWrapper({
-    title: 'Hr. Litto',
-    id: 'hrlitto',
+    title: 'Fake Mirror',
+    id: 'fake-mirror',
     img: {
       src: '/thesystem-litto-thebody.jpg',
       height: 900,
