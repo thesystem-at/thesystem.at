@@ -29,11 +29,9 @@ export const View = state => [
 
   Phase1(),
 
-  div({ class: 'month-title' }, 'Current exhibition'),
+  div({ class: 'month-title' }, 'Exhibitions'),
+
   MetzgereiMops(),
-
-  div({ class: 'month-title' }, 'Past events'),
-
   Setzkasten(),
   Fluesterkonus(),
   MaxMustermann(),
