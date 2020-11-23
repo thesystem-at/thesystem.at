@@ -4,7 +4,7 @@ export default {
   URL: 'thesystem.at',
   PUBLIC: '../docs/yppenplatz5/',
   THEME: '@thesystemcollective/magic-theme',
-  CNAME: 'thesystem.at',
+  //CNAME: 'thesystem.at',
   IGNORED_STATIC: 'xcf',
 
   HOIST: ['NoSpy'],
