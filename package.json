@@ -34,12 +34,12 @@
   "dependencies": {
     "@magic-modules/no-spy": "0.0.5",
     "@magic-modules/video-embed": "0.0.4",
-    "@magic/core": "0.0.91",
+    "@magic/core": "0.0.94",
     "@thesystemcollective/magic-theme": "github:thesystemcollective/magic-theme"
   },
   "devDependencies": {
-    "@magic/format": "0.0.17",
-    "@magic/test": "0.1.56"
+    "@magic/format": "0.0.19",
+    "@magic/test": "0.1.58"
   },
   "contributors": [
     {
