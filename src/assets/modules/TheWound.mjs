@@ -3,46 +3,46 @@ export const View = () =>
     title: 'The Wound',
     id: 'thewound',
     img: {
-      src: '/thesystem-selinanowak-thewound.jpg',
+      src: '/thesystem-selinanovak-thewound.jpg',
       height: 1200,
       width: 1600,
     },
 
     exhibitionImages: [
       {
-        src: '/exhibitions/thewound/thesystem-selinanowak-thewound-01.jpg',
+        src: '/exhibitions/thewound/thesystem-selinanovak-thewound-01.jpg',
         height: 900,
         width: 1200,
       },
       {
-        src: '/exhibitions/thewound/thesystem-selinanowak-thewound-02.jpg',
+        src: '/exhibitions/thewound/thesystem-selinanovak-thewound-02.jpg',
         height: 900,
         width: 1200,
       },
       {
-        src: '/exhibitions/thewound/thesystem-selinanowak-thewound-03.jpg',
+        src: '/exhibitions/thewound/thesystem-selinanovak-thewound-03.jpg',
         height: 800,
         width: 1200,
       },
       {
-        src: '/exhibitions/thewound/thesystem-selinanowak-thewound-04.jpg',
+        src: '/exhibitions/thewound/thesystem-selinanovak-thewound-04.jpg',
         height: 900,
         width: 1200,
       },
       {
-        src: '/exhibitions/thewound/thesystem-selinanowak-thewound-05.jpg',
+        src: '/exhibitions/thewound/thesystem-selinanovak-thewound-05.jpg',
         height: 800,
         width: 1200,
       },
       {
-        src: '/exhibitions/thewound/thesystem-selinanowak-thewound-06.jpg',
+        src: '/exhibitions/thewound/thesystem-selinanovak-thewound-06.jpg',
         height: 800,
         width: 1200,
       },
     ],
 
     presents: {
-      artists: 'Selina Nowak',
+      artists: 'Selina Novak',
       collective: {
         text: 'Zirkus Mops',
         to: 'http://www.mysoundofmusic.at/',
