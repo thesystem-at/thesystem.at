@@ -1,5 +1,5 @@
 export const View = state => [
-  div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Collective' })]),
+  div({ class: 'PageHeader' }, Slogan({ subTitle: 'Collective' })),
 
   div({ class: 'manifest' }, [
     p([
