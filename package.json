@@ -34,8 +34,8 @@
   "dependencies": {
     "@magic-modules/no-spy": "0.0.5",
     "@magic-modules/video-embed": "0.0.4",
-    "@magic/core": "0.0.99",
-    "@thesystemcollective/magic-theme": "github:thesystemcollective/magic-theme"
+    "@magic/core": "0.0.100",
+    "@thesystemcollective/magic-theme": "github:thesystemcollective/magic-theme#rework"
   },
   "devDependencies": {
     "@magic/format": "0.0.20",
