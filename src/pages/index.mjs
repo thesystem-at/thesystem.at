@@ -26,4 +26,6 @@ export const View = state => [
       ' Dachsbau, Sandkasten Syndikat, Setzkasten Wien, Zirkus Mops, Villa Schapira, Metalab.',
     ]),
   ]),
+
+  Partners(),
 ]
