@@ -32,14 +32,14 @@
     "url": "https://github.com/thesystemcollective/thesystem.at/issues"
   },
   "dependencies": {
-    "@magic-modules/no-spy": "0.0.5",
-    "@magic-modules/video-embed": "0.0.4",
-    "@magic/core": "0.0.94",
+    "@magic-modules/no-spy": "0.0.6",
+    "@magic-modules/video-embed": "0.0.5",
+    "@magic/core": "0.0.103",
     "@thesystemcollective/magic-theme": "github:thesystemcollective/magic-theme"
   },
   "devDependencies": {
-    "@magic/format": "0.0.19",
-    "@magic/test": "0.1.58"
+    "@magic/format": "0.0.21",
+    "@magic/test": "0.1.60"
   },
   "contributors": [
     {
