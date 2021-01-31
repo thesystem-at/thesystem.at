@@ -1,10 +1,10 @@
 export default {
   ROOT: 'src',
-  WEB_ROOT: '/yppenplatz5/',
+  WEB_ROOT: '/',
   URL: 'thesystem.at',
-  PUBLIC: '../docs/yppenplatz5/',
+  PUBLIC: 'docs',
   THEME: '@thesystemcollective/magic-theme',
-  // CNAME: 'thesystem.at',
+  CNAME: 'thesystem.at',
   IGNORED_STATIC: 'xcf',
 
   HOIST: ['NoSpy'],
