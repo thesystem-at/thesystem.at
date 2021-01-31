@@ -1,5 +1,5 @@
 export const View = state => [
-  div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Collective' })]),
+  div({ class: 'PageHeader' }, [VideoContainer(state), Slogan({ subTitle: 'Collective' }), ArtificialMuseumLink()]),
 
   div({ class: 'manifest' }, [
     p([
@@ -8,7 +8,7 @@ export const View = state => [
       ' artists, makers, programmers, engineers, philosophers, activists, and scientists,',
       ' collectively using art and technology to transform our world.',
       ' We believe in a literal definition of "open source",',
-      ' and convert public spaces into a museum, ready for artists to freely position their art.',
+      ' and convert public spaces into an Artificial Museum, ready for artists to freely position their art.',
     ]),
 
     p('Our method is an intermixture of universes, physical, virtual and imaginary.'),
